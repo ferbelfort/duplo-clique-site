@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make.com — Guia de Configuração · Duplo Clique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --blue:#1B7FE0; --lime:#C8FF00; --text:#1a1a2e; --muted:#6b7894; --bg:#f5f8ff; --border:#dce6f5; --surface:#fff; --green:#2e7d32; --orange:#e65100; --mono:'Courier New',monospace; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Archivo',sans-serif; background:var(--bg); color:var(--text); font-size:15px; line-height:1.7; }
+    .wrap { max-width:800px; margin:0 auto; padding:48px 24px 100px; }
+    .doc-header { background:var(--blue); border-radius:12px; padding:32px 36px; margin-bottom:48px; }
+    .doc-header h1 { font-family:'Archivo Black',sans-serif; font-size:28px; color:var(--lime); margin-bottom:8px; }
+    .doc-header p { color:rgba(255,255,255,0.7); font-size:15px; }
+    h2 { font-family:'Archivo Black',sans-serif; font-size:20px; color:var(--text); margin:40px 0 16px; padding-bottom:10px; border-bottom:2px solid var(--border); }
+    h3 { font-family:'Archivo Black',sans-serif; font-size:14px; color:var(--blue); text-transform:uppercase; letter-spacing:0.5px; margin:24px 0 10px; }
+    p { margin-bottom:12px; color:#333; font-size:14px; }
+
+    /* Step cards */
+    .step-card { background:var(--surface); border:1.5px solid var(--border); border-radius:10px; padding:20px 24px; margin-bottom:16px; display:flex; gap:16px; }
+    .step-num { width:36px; height:36px; background:var(--blue); color:var(--surface); border-radius:50%; font-family:'Archivo Black',sans-serif; font-size:14px; display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px; }
+    .step-body { flex:1; }
+    .step-title { font-family:'Archivo Black',sans-serif; font-size:15px; color:var(--text); margin-bottom:6px; }
+    .step-desc { font-size:13px; color:#444; line-height:1.6; margin-bottom:0; }
+    .step-code { background:#1e2130; color:#cdd6f4; font-family:var(--mono); font-size:12px; border-radius:6px; padding:12px 16px; margin-top:10px; line-height:1.7; white-space:pre-wrap; }
+    .step-note { background:rgba(27,127,224,0.06); border-left:3px solid var(--blue); padding:10px 14px; border-radius:0 6px 6px 0; margin-top:10px; font-size:12px; color:#333; }
+    .step-warn { background:rgba(230,81,0,0.06); border-left:3px solid var(--orange); padding:10px 14px; border-radius:0 6px 6px 0; margin-top:10px; font-size:12px; color:#333; }
+
+    /* Module flow */
+    .flow { display:flex; flex-direction:column; gap:0; margin:20px 0; }
+    .flow-module { display:flex; gap:0; }
+    .flow-left { display:flex; flex-direction:column; align-items:center; width:40px; flex-shrink:0; }
+    .flow-icon { width:32px; height:32px; border-radius:6px; background:var(--blue); display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
+    .flow-connector { width:2px; flex:1; background:var(--border); min-height:16px; }
+    .flow-last .flow-connector { display:none; }
+    .flow-content { padding:0 0 20px 14px; flex:1; }
+    .flow-name { font-family:'Archivo Black',sans-serif; font-size:14px; color:var(--text); margin-bottom:4px; }
+    .flow-detail { font-size:12px; color:var(--muted); }
+    .flow-branch { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin:12px 0 20px 0; }
+    .branch-card { background:rgba(27,127,224,0.05); border:1px solid var(--border); border-radius:8px; padding:12px 14px; }
+    .branch-title { font-family:'Archivo Black',sans-serif; font-size:12px; color:var(--blue); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.5px; }
+    .branch-desc { font-size:12px; color:#555; line-height:1.5; }
+
+    /* Checklist */
+    .checklist { list-style:none; margin:12px 0; }
+    .checklist li { display:flex; gap:12px; align-items:flex-start; padding:8px 0; border-bottom:1px solid #f0f4fc; font-size:13px; color:#333; }
+    .checklist li:last-child { border-bottom:none; }
+    .check-box { width:18px; height:18px; border:2px solid var(--border); border-radius:4px; flex-shrink:0; margin-top:2px; }
+
+    /* Service cards */
+    .service-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:16px 0; }
+    .service-card { background:var(--surface); border:1.5px solid var(--border); border-radius:8px; padding:16px 18px; }
+    .service-name { font-family:'Archivo Black',sans-serif; font-size:14px; margin-bottom:4px; }
+    .service-url { font-size:12px; color:var(--blue); font-family:var(--mono); margin-bottom:8px; }
+    .service-desc { font-size:12px; color:var(--muted); }
+
+    @media(max-width:600px){ .flow-branch{grid-template-columns:1fr;} .service-grid{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="doc-header">
+    <h1>Make.com — Guia de Configuração</h1>
+    <p>Passo a passo para montar o pipeline de automação completo: Buzzsprout → Claude → GitHub + Beehiiv + YouTube</p>
+  </div>
+
+  <!-- CONTAS -->
+  <h2>Contas que você precisa criar (antes de tudo)</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <div class="service-name">Make.com</div>
+      <div class="service-url">make.com</div>
+      <div class="service-desc">Plano Core, US$9/mês. É o hub central de toda automação.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Anthropic Console</div>
+      <div class="service-url">console.anthropic.com</div>
+      <div class="service-desc">Criar conta, gerar API Key, adicionar crédito (US$5 dura o ano todo).</div>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Beehiiv</div>
+      <div class="service-url">beehiiv.com</div>
+      <div class="service-desc">Plano Launch (grátis). Gerar API Key em Settings → API.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-name">GitHub</div>
+      <div class="service-url">github.com</div>
+      <div class="service-desc">Criar repositório "duplo-clique-site" (público ou privado). Gerar Personal Access Token em Settings → Developer.</div>
+    </div>
+  </div>
+
+  <!-- SCENARIO OVERVIEW -->
+  <h2>Visão geral do cenário Make.com</h2>
+  <p>Um único cenário com 9 módulos em sequência, com 3 saídas paralelas no final:</p>
+
+  <div class="flow">
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">📡</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">1. RSS · Watch Feed</div>
+        <div class="flow-detail">Monitora o feed RSS do Buzzsprout. Dispara quando detecta novo episódio.</div>
+      </div>
+    </div>
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">🎙</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">2. HTTP · Get Buzzsprout Transcription</div>
+        <div class="flow-detail">Chamada GET à API do Buzzsprout para buscar a transcrição do episódio recém-publicado.</div>
+      </div>
+    </div>
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">🤖</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">3. Anthropic Claude · Create Message</div>
+        <div class="flow-detail">Envia transcrição + título ao Claude com o prompt de segmentação. Recebe JSON estruturado.</div>
+      </div>
+    </div>
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">🔧</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">4. JSON · Parse</div>
+        <div class="flow-detail">Faz parse do JSON retornado pelo Claude em objeto utilizável pelos próximos módulos.</div>
+      </div>
+    </div>
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">📂</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">5. GitHub · Get File (episodes.json)</div>
+        <div class="flow-detail">Busca o arquivo episodes.json atual do repositório para poder atualizar sem sobrescrever os episódios anteriores.</div>
+      </div>
+    </div>
+    <div class="flow-module">
+      <div class="flow-left"><div class="flow-icon">⚡</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">6. Tools · Set Variable (merge JSON)</div>
+        <div class="flow-detail">Combina o novo episódio (do Claude) com o array existente de episódios do GitHub, criando o JSON atualizado.</div>
+      </div>
+    </div>
+  </div>
+
+  <p><strong>A partir daqui, 3 saídas rodam em paralelo (roteador):</strong></p>
+
+  <div class="flow-branch">
+    <div class="branch-card">
+      <div class="branch-title">🌐 Site</div>
+      <div class="branch-desc">GitHub · Update File — faz commit do episodes.json atualizado. Vercel refaz o deploy automaticamente em ~30s.</div>
+    </div>
+    <div class="branch-card">
+      <div class="branch-title">📧 Newsletter</div>
+      <div class="branch-desc">Beehiiv · Create Post — cria rascunho da newsletter já formatada com intro + blocos por tema + CTA.</div>
+    </div>
+    <div class="branch-card">
+      <div class="branch-title">▶️ YouTube</div>
+      <div class="branch-desc">YouTube · Update Video — adiciona chapters formatados na descrição do vídeo usando os timestamps do Claude.</div>
+    </div>
+  </div>
+
+  <div class="flow">
+    <div class="flow-module flow-last">
+      <div class="flow-left"><div class="flow-icon">🔔</div><div class="flow-connector"></div></div>
+      <div class="flow-content">
+        <div class="flow-name">10. Notificação final (e-mail ou WhatsApp)</div>
+        <div class="flow-detail">Envia resumo: "Episódio #XX processado ✅ — Site atualizado, rascunho no Beehiiv, chapters no YouTube."</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- PASSO A PASSO -->
+  <h2>Configuração módulo por módulo</h2>
+
+  <div class="step-card">
+    <div class="step-num">1</div>
+    <div class="step-body">
+      <div class="step-title">RSS · Watch Feed Items</div>
+      <p class="step-desc">No Make.com, adicione o módulo "RSS" → "Watch RSS Feed Items".</p>
+      <div class="step-code">URL do feed: https://feeds.buzzsprout.com/2437885.rss
+Intervalo de verificação: 15 minutos</div>
+      <div class="step-note">O Make.com vai verificar o feed a cada 15 minutos. Quando detectar um novo item (novo episódio), dispara o cenário automaticamente.</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">2</div>
+    <div class="step-body">
+      <div class="step-title">HTTP · Get Buzzsprout Transcription</div>
+      <p class="step-desc">Adicione módulo "HTTP" → "Make a Request". Configure assim:</p>
+      <div class="step-code">Method: GET
+URL: https://www.buzzsprout.com/api/{{seu_account_id}}/episodes/{{episode_id}}/transcript.txt
+Headers:
+  Authorization: Token token={{sua_api_key_buzzsprout}}
+
+Onde {{episode_id}} vem do campo "guid" ou "id" do módulo RSS anterior.</div>
+      <div class="step-note">Sua API key do Buzzsprout fica em: My Account → API Access. Seu account ID aparece na URL quando você está logado no Buzzsprout (ex: buzzsprout.com/2437885 → ID é 2437885).</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">3</div>
+    <div class="step-body">
+      <div class="step-title">Anthropic Claude · Create Message</div>
+      <p class="step-desc">Adicione módulo "Anthropic Claude" → "Create a Message". Conecte sua API key.</p>
+      <div class="step-code">Model: claude-sonnet-4-5
+Max Tokens: 2000
+Temperature: 0.3
+
+System: [cole aqui o conteúdo completo do arquivo claude-prompt.txt]
+
+User:
+EPISÓDIO: {{title}} (do módulo RSS)
+NÚMERO: {{extrair do title com regex, ex: #41}}
+DURAÇÃO: {{itunes:duration}} (do módulo RSS)
+DATA: {{pubDate}} (do módulo RSS)
+
+TRANSCRIÇÃO:
+{{Data do módulo HTTP anterior}}</div>
+      <div class="step-warn">A transcrição pode ser longa. Verifique se o Make.com não está truncando o campo. Se precisar, use o módulo "Text aggregator" antes para garantir que o texto completo está passando.</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">4</div>
+    <div class="step-body">
+      <div class="step-title">JSON · Parse JSON</div>
+      <p class="step-desc">Adicione módulo "JSON" → "Parse JSON". No campo "JSON String", selecione o output do Claude (campo "content[].text").</p>
+      <div class="step-note">Isso transforma a string JSON do Claude em um objeto Make.com com campos acessíveis nos próximos módulos. Se o Claude retornar texto antes do JSON (o que não deve acontecer com temperature 0.3), adicione um módulo "Text" → "Replace" para remover qualquer texto antes do primeiro "{".</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">5</div>
+    <div class="step-body">
+      <div class="step-title">GitHub · Get a File</div>
+      <p class="step-desc">Adicione módulo "GitHub" → "Get a File". Conecte sua conta GitHub.</p>
+      <div class="step-code">Repository: duplo-clique-site
+File path: data/episodes.json
+Branch: main</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">6</div>
+    <div class="step-body">
+      <div class="step-title">Tools · Set Variable (merge)</div>
+      <p class="step-desc">Adicione módulo "Tools" → "Set Variable". Aqui você combina o novo episódio com o array existente.</p>
+      <div class="step-code">Variable name: updated_episodes_json
+Variable value: (use a função JSON.stringify do Make para combinar arrays)
+
+Fórmula aproximada:
+{
+  "episodes": [
+    {{JSON do novo episódio (do Claude)}},
+    ...{{episódios existentes do GitHub}}
+  ]
+}</div>
+      <div class="step-note">Esta é a etapa mais técnica. Se precisar de ajuda, no Make.com você pode usar a função "parseJSON" e "toString" para manipular os arrays. Alternativamente, use um módulo "HTTP" apontando para um webhook que você cria — é possível simplificar com um script Python no Vercel como API route.</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">7A</div>
+    <div class="step-body">
+      <div class="step-title">GitHub · Update a File (site)</div>
+      <div class="step-code">Repository: duplo-clique-site
+File path: data/episodes.json
+Content: {{updated_episodes_json}}
+Commit message: "Add episode #{{id}} — {{title}}"
+Branch: main</div>
+      <div class="step-note">O Vercel detecta o commit e refaz o deploy automaticamente em ~30 segundos. O site atualiza sozinho.</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">7B</div>
+    <div class="step-body">
+      <div class="step-title">Beehiiv · Create Post (newsletter draft)</div>
+      <div class="step-code">Publication ID: (seu ID do Beehiiv, em Settings → API)
+Title: {{newsletter.subject}} (do JSON do Claude)
+Subtitle: {{newsletter.preview_text}}
+Status: draft (para você revisar antes de enviar)
+
+Body HTML:
+&lt;p&gt;{{newsletter.intro}}&lt;/p&gt;
+
+{{para cada segmento em segments}}:
+&lt;div&gt;
+  &lt;span&gt;{{segment.theme_label}}&lt;/span&gt;
+  &lt;h2&gt;{{segment.title}}&lt;/h2&gt;
+  &lt;p&gt;{{segment.description}}&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;{{segment.hook}}&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;a href="{{youtube_url}}"&gt;{{newsletter.cta_text}}&lt;/a&gt;</div>
+      <div class="step-note">Com status "draft", o Beehiiv não envia automaticamente. Você recebe a notificação, abre o Beehiiv, revisa em 2 minutos e clica em "Send". Quando estiver confiante na qualidade, mude para "confirmed" para envio automático.</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">7C</div>
+    <div class="step-body">
+      <div class="step-title">YouTube · Update Video (chapters)</div>
+      <div class="step-code">Video ID: (precisa mapear episódio → video ID)
+         Use uma coluna no episodes.json para armazenar o youtube_video_id
+
+Description: (descrição atual do vídeo) + "\n\n" + {{youtube_chapters do Claude}}
+
+Onde youtube_chapters tem o formato:
+0:00 Introdução
+12:30 CRISPR e edição genética
+31:15 AlphaFold
+48:00 Reflexões finais</div>
+      <div class="step-warn">O YouTube Data API precisa de autorização OAuth da conta do canal. Configure em Google Cloud Console → Credentials → OAuth 2.0. No Make.com, use "YouTube" → "Update a Video". O Video ID do episódio precisa ser adicionado manualmente no episodes.json quando o vídeo for publicado (ou usar YouTube Search API para encontrar pelo título — mais complexo).</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-num">8</div>
+    <div class="step-body">
+      <div class="step-title">Email / WhatsApp · Notificação final</div>
+      <p class="step-desc">Use o módulo "Email" (Make.com tem SMTP integrado) ou "WhatsApp Business" via Zapi.com.br.</p>
+      <div class="step-code">Para: fernanda@email.com
+Assunto: ✅ Duplo Clique #{{id}} processado
+
+Corpo:
+- Site: atualizado com {{segments.length}} segmentos
+- Newsletter: rascunho criado no Beehiiv — revisar e enviar
+- YouTube: chapters adicionados
+- Custo Claude API: ~US$0.08
+
+Link do rascunho no Beehiiv: {{beehiiv_post_url}}</div>
+    </div>
+  </div>
+
+
+  <!-- TESTE -->
+  <h2>Como testar antes de ativar</h2>
+
+  <ul class="checklist">
+    <li><div class="check-box"></div>No Make.com, use "Run once" apontando para um episódio já publicado (não o mais recente, para não criar duplicata)</li>
+    <li><div class="check-box"></div>Verifique o output do Claude — os segmentos fazem sentido? O JSON é válido?</li>
+    <li><div class="check-box"></div>Verifique o arquivo episodes.json no GitHub — o novo episódio foi adicionado corretamente?</li>
+    <li><div class="check-box"></div>Verifique o deploy no Vercel — o site mostra o episódio novo?</li>
+    <li><div class="check-box"></div>Verifique o rascunho no Beehiiv — o HTML está formatado corretamente?</li>
+    <li><div class="check-box"></div>Verifique o vídeo no YouTube — os chapters aparecem na descrição?</li>
+    <li><div class="check-box"></div>Se tudo OK: ative o cenário. Daqui em diante, cada publicação no Buzzsprout dispara tudo automaticamente.</li>
+  </ul>
+
+  <h3>Iterando o prompt do Claude</h3>
+  <p>Nas primeiras rodadas, compare o output do Claude com a sua percepção do episódio. O prompt pode ser ajustado para:</p>
+  <ul class="checklist">
+    <li><div class="check-box"></div>Segmentos muito curtos? Ajuste "mínimo de 8 minutos" para 10 ou 12 no prompt</li>
+    <li><div class="check-box"></div>Temas classificados errado? Adicione exemplos no prompt ("quando houver discussão de mercados financeiros, use 'economia' não 'geopolitica'")</li>
+    <li><div class="check-box"></div>Hook muito genérico? Adicione instrução: "o hook deve mencionar um ângulo específico, não apenas o tema"</li>
+    <li><div class="check-box"></div>Intro da newsletter muito longa? Limite explícito: "máximo 80 palavras para a intro"</li>
+  </ul>
+
+</div>
+</body>
+</html>

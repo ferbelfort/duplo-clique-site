@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checklist de Execução · Duplo Clique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --blue:#1B7FE0; --lime:#C8FF00; --text:#1a1a2e; --muted:#6b7894; --bg:#f5f8ff; --border:#dce6f5; --surface:#fff; --green:#2e7d32; --orange:#e65100; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Archivo',sans-serif; background:var(--bg); color:var(--text); font-size:15px; line-height:1.7; }
+    .wrap { max-width:720px; margin:0 auto; padding:48px 24px 100px; }
+
+    .hero { background:var(--blue); border-radius:14px; padding:32px 36px; margin-bottom:40px; }
+    .hero h1 { font-family:'Archivo Black',sans-serif; font-size:26px; color:var(--lime); margin-bottom:8px; }
+    .hero p { color:rgba(255,255,255,0.75); font-size:14px; }
+    .hero-meta { display:flex; gap:20px; margin-top:16px; flex-wrap:wrap; }
+    .hero-stat { background:rgba(255,255,255,0.1); border-radius:6px; padding:8px 14px; }
+    .hero-stat-num { font-family:'Archivo Black',sans-serif; font-size:20px; color:var(--lime); }
+    .hero-stat-label { font-size:11px; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:1px; }
+
+    /* Phase */
+    .phase { margin-bottom:36px; }
+    .phase-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; padding-bottom:10px; border-bottom:2px solid var(--border); }
+    .phase-badge { font-family:'Archivo Black',sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1px; padding:4px 10px; border-radius:4px; }
+    .phase-1 .phase-badge { background:rgba(27,127,224,0.12); color:var(--blue); }
+    .phase-2 .phase-badge { background:rgba(46,125,50,0.12); color:var(--green); }
+    .phase-3 .phase-badge { background:rgba(200,255,0,0.15); color:#5a7000; }
+    .phase-title { font-family:'Archivo Black',sans-serif; font-size:18px; color:var(--text); }
+    .phase-time { font-size:12px; color:var(--muted); margin-left:auto; }
+
+    /* Task */
+    .task { background:var(--surface); border:1.5px solid var(--border); border-radius:10px; padding:16px 20px; margin-bottom:10px; display:flex; gap:14px; align-items:flex-start; cursor:pointer; transition:border-color 0.15s; }
+    .task:hover { border-color:var(--blue); }
+    .task.done { border-color:#c8e6c9; background:#f9fff9; }
+    .task-check { width:22px; height:22px; border:2px solid var(--border); border-radius:5px; flex-shrink:0; margin-top:2px; transition:all 0.15s; display:flex; align-items:center; justify-content:center; }
+    .task.done .task-check { background:var(--green); border-color:var(--green); }
+    .task.done .task-check::after { content:'✓'; color:white; font-size:13px; font-weight:700; }
+    .task-body { flex:1; }
+    .task-title { font-weight:700; font-size:14px; color:var(--text); margin-bottom:4px; }
+    .task.done .task-title { color:var(--muted); text-decoration:line-through; }
+    .task-desc { font-size:13px; color:#555; line-height:1.6; }
+    .task-link { display:inline-flex; align-items:center; gap:4px; margin-top:6px; font-size:12px; font-weight:700; color:var(--blue); text-decoration:none; }
+    .task-link:hover { text-decoration:underline; }
+    .task-code { background:#f0f4ff; font-family:'Courier New',monospace; font-size:12px; padding:8px 12px; border-radius:5px; margin-top:8px; color:#333; }
+    .task-warn { background:rgba(230,81,0,0.07); border-left:2px solid var(--orange); padding:8px 12px; border-radius:0 5px 5px 0; margin-top:8px; font-size:12px; color:#444; }
+    .task-note { background:rgba(27,127,224,0.05); border-left:2px solid var(--blue); padding:8px 12px; border-radius:0 5px 5px 0; margin-top:8px; font-size:12px; color:#444; }
+
+    /* Progress */
+    .progress-bar-wrap { background:var(--surface); border:1.5px solid var(--border); border-radius:10px; padding:16px 20px; margin-bottom:32px; }
+    .progress-label { display:flex; justify-content:space-between; font-size:13px; margin-bottom:8px; }
+    .progress-label span:first-child { font-weight:700; color:var(--text); }
+    .progress-label span:last-child { color:var(--muted); }
+    .progress-track { background:var(--border); border-radius:4px; height:8px; overflow:hidden; }
+    .progress-fill { background:var(--blue); height:100%; border-radius:4px; width:0%; transition:width 0.3s; }
+
+    /* Summary */
+    .summary-card { background:var(--blue); border-radius:12px; padding:24px 28px; margin-top:40px; }
+    .summary-card h2 { font-family:'Archivo Black',sans-serif; font-size:18px; color:var(--lime); margin-bottom:12px; }
+    .summary-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .summary-item { background:rgba(255,255,255,0.08); border-radius:8px; padding:12px 14px; }
+    .summary-item-label { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:rgba(255,255,255,0.5); margin-bottom:4px; }
+    .summary-item-val { font-family:'Archivo Black',sans-serif; font-size:16px; color:var(--white); }
+
+    @media(max-width:500px){ .summary-grid{grid-template-columns:1fr;} .hero-meta{flex-direction:column;} }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1>Checklist de Execução</h1>
+    <p>Tudo que você precisa fazer pessoalmente, na ordem certa. Os arquivos técnicos já estão prontos.</p>
+    <div class="hero-meta">
+      <div class="hero-stat">
+        <div class="hero-stat-num">3</div>
+        <div class="hero-stat-label">fases</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">~1 tarde</div>
+        <div class="hero-stat-label">fase 1</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">~US$10/mês</div>
+        <div class="hero-stat-label">custo recorrente</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress-bar-wrap">
+    <div class="progress-label"><span>Progresso geral</span><span id="progress-text">0 de 20 tarefas</span></div>
+    <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+
+
+  <!-- FASE 1 -->
+  <div class="phase phase-1">
+    <div class="phase-header">
+      <span class="phase-badge">Fase 1</span>
+      <span class="phase-title">Site + Domínio no ar</span>
+      <span class="phase-time">~1 tarde · Resultado: site publicado</span>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Verificar disponibilidade do domínio</div>
+        <div class="task-desc">Acesse namecheap.com e pesquise "duploclique.fm". Se não disponível, tente: duploclique.com.br (Registro.br), duplo-clique.fm, ou duploclique.fm.</div>
+        <a class="task-link" href="https://www.namecheap.com" target="_blank">→ namecheap.com</a>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Registrar o domínio .fm</div>
+        <div class="task-desc">Comprar "duploclique.fm" no Namecheap. Pague por 2 anos se possível (desconto + proteção de marca). Ative "WhoisGuard" para privacidade.</div>
+        <div class="task-code">Custo: ~US$30/ano · Cartão de crédito internacional</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Criar conta no GitHub e subir os arquivos do site</div>
+        <div class="task-desc">Criar repositório público "duplo-clique-site". Fazer upload da pasta /site/ que está nos seus arquivos: index.html + pasta data/ com episodes.json + pasta automation/.</div>
+        <a class="task-link" href="https://github.com" target="_blank">→ github.com</a>
+        <div class="task-note">Os arquivos estão prontos na pasta "site" que gerei para você. Basta fazer upload.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Criar conta no Vercel e conectar ao GitHub</div>
+        <div class="task-desc">Acesse vercel.com, crie conta com sua conta do GitHub, clique em "Add New Project", selecione o repositório "duplo-clique-site". O Vercel detecta HTML automaticamente — clique em Deploy.</div>
+        <a class="task-link" href="https://vercel.com" target="_blank">→ vercel.com</a>
+        <div class="task-note">O primeiro deploy leva ~1 minuto. Você vai receber uma URL do tipo "duplo-clique-site.vercel.app" — é onde o site estará temporariamente até o domínio propagar.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Apontar o domínio para o Vercel</div>
+        <div class="task-desc">No Vercel: Project Settings → Domains → Add "duploclique.fm". O Vercel mostra os nameservers. No Namecheap: Domain → Manage → Nameservers → copie os do Vercel.</div>
+        <div class="task-warn">A propagação de DNS leva entre 30 minutos e 24 horas. Normal — não se preocupe se não funcionar imediatamente.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Popular os episódios reais no episodes.json</div>
+        <div class="task-desc">O arquivo já tem 7 episódios com dados reais que conseguimos levantar. Revise os títulos, datas e URLs do Spotify/YouTube. Edite direto no GitHub (botão "Edit" no arquivo) e faça commit — o Vercel atualiza automaticamente.</div>
+        <div class="task-note">Prioridade máxima: adicionar as URLs reais do YouTube e Spotify para cada episódio. Os timestamps podem ser ajustados depois quando a automação rodar.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Criar conta no Beehiiv e configurar a newsletter</div>
+        <div class="task-desc">Criar conta em beehiiv.com (plano Launch, grátis). Configurar: nome da publicação "Duplo Clique", logo, cor primária #1B7FE0. Ir em Settings → API → Generate API Key (salvar em lugar seguro).</div>
+        <a class="task-link" href="https://www.beehiiv.com" target="_blank">→ beehiiv.com</a>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Conectar o formulário do site ao Beehiiv</div>
+        <div class="task-desc">No Beehiiv: Forms → Create Form → copie o embed code ou use o endpoint da API. No arquivo index.html do site, substitua o formulário atual pelo endpoint do Beehiiv.</div>
+        <div class="task-note">O Beehiiv fornece um endpoint de API para adicionar assinantes via POST. Isso pode ser configurado direto no JavaScript do site — eu posso gerar esse código quando você tiver a API key.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FASE 2 -->
+  <div class="phase phase-2">
+    <div class="phase-header">
+      <span class="phase-badge">Fase 2</span>
+      <span class="phase-title">Automação completa</span>
+      <span class="phase-time">~1 dia · Resultado: pipeline rodando sozinho</span>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Criar conta no Make.com (plano Core)</div>
+        <div class="task-desc">Criar conta em make.com. Escolher plano Core (US$9/mês) — necessário para mais de 1.000 operações mensais e para usar módulos premium como GitHub e YouTube.</div>
+        <a class="task-link" href="https://www.make.com" target="_blank">→ make.com</a>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Criar conta Anthropic e gerar API Key</div>
+        <div class="task-desc">Acessar console.anthropic.com, criar conta, ir em API Keys → Create Key. Adicionar crédito de US$5 (dura o ano todo para o volume do podcast).</div>
+        <a class="task-link" href="https://console.anthropic.com" target="_blank">→ console.anthropic.com</a>
+        <div class="task-code">Guarde a API key — aparece só uma vez. Formato: sk-ant-api03-...</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Gerar GitHub Personal Access Token</div>
+        <div class="task-desc">No GitHub: Settings → Developer Settings → Personal Access Tokens → Tokens (classic) → Generate. Permissões necessárias: "repo" (full control). O Make.com vai usar esse token para fazer commits.</div>
+        <div class="task-code">Guarde o token — aparece só uma vez. Formato: ghp_...</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Configurar o cenário no Make.com</div>
+        <div class="task-desc">Seguir o guia em automation/make-scenario-guide.html. Conectar: RSS (Buzzsprout) → Buzzsprout API → Claude API → JSON Parser → GitHub Get → GitHub Update + Beehiiv Create Post + (YouTube opcional primeiro).</div>
+        <div class="task-note">O guia está detalhado módulo por módulo. Reserve ~3 horas para a primeira configuração. Depois de configurado, não precisa tocar mais.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Testar o pipeline com episódio existente</div>
+        <div class="task-desc">No Make.com, use "Run once" apontando para um episódio já publicado. Verificar: JSON do Claude válido? Site atualizado? Rascunho no Beehiiv criado? Ajustar o prompt se necessário.</div>
+        <div class="task-warn">Faça pelo menos 3 testes com episódios diferentes antes de ativar o cenário. O prompt do Claude pode precisar de ajustes para o estilo do Duplo Clique.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Configurar YouTube Data API</div>
+        <div class="task-desc">No Google Cloud Console: criar projeto → APIs → YouTube Data API v3 → Enable → Credentials → OAuth 2.0 Client ID → autorizar conta do canal. No Make.com: conectar YouTube com essas credenciais.</div>
+        <a class="task-link" href="https://console.cloud.google.com" target="_blank">→ Google Cloud Console</a>
+        <div class="task-note">Essa é a etapa mais complexa tecnicamente. Se travar, pode deixar para a Fase 3 — o restante do pipeline funciona sem ela.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Enviar a primeira newsletter pela automação</div>
+        <div class="task-desc">Publicar um episódio novo no Buzzsprout normalmente. Aguardar até 15 minutos. Verificar se o Make.com rodou, o rascunho está no Beehiiv. Revisar e enviar.</div>
+        <div class="task-note">Esta é a validação final da Fase 2. Se chegou até aqui e funcionou, o sistema está operacional.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FASE 3 -->
+  <div class="phase phase-3">
+    <div class="phase-header">
+      <span class="phase-badge">Fase 3</span>
+      <span class="phase-title">Arquivo histórico + SEO</span>
+      <span class="phase-time">~1 fim de semana · Resultado: biblioteca completa</span>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Rodar o pipeline retroativamente em todos os episódios</div>
+        <div class="task-desc">No Make.com, rodar o cenário manualmente para cada episódio anterior — basta passar a URL do episódio no Buzzsprout. O Claude vai gerar os segmentos para o arquivo histórico.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Revisar e publicar os episodes.json do arquivo completo</div>
+        <div class="task-desc">Depois do pipeline retroativo, o episodes.json terá todos os episódios com segmentos. Revisar os mais importantes (últimos 10) antes de publicar o arquivo completo no site.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Adicionar chapters nos vídeos do YouTube antigos</div>
+        <div class="task-desc">Para os episódios já publicados no YouTube, usar o Make.com ou adicionar manualmente os chapters gerados pelo Claude. Priorize os 10 episódios mais acessados.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Configurar Google Analytics e Search Console</div>
+        <div class="task-desc">Adicionar o tag do Google Analytics 4 no index.html. Registrar o domínio no Google Search Console e enviar o sitemap para indexação.</div>
+        <div class="task-note">Eu posso gerar o sitemap.xml automático baseado no episodes.json quando chegar nesta etapa.</div>
+      </div>
+    </div>
+
+    <div class="task" onclick="toggleTask(this)">
+      <div class="task-check"></div>
+      <div class="task-body">
+        <div class="task-title">Registrar também duploclique.com.br (opcional mas recomendado)</div>
+        <div class="task-desc">No Registro.br: registrar "duploclique.com.br" e configurar redirect para "duploclique.fm". Protege a marca no Brasil.</div>
+        <a class="task-link" href="https://registro.br" target="_blank">→ registro.br</a>
+        <div class="task-code">Custo: ~R$40/ano</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- RESUMO DE CUSTOS -->
+  <div class="summary-card">
+    <h2>Resumo de custos recorrentes</h2>
+    <div class="summary-grid">
+      <div class="summary-item">
+        <div class="summary-item-label">Make.com Core</div>
+        <div class="summary-item-val">US$9/mês</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-item-label">Claude API</div>
+        <div class="summary-item-val">~US$0.10/ep</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-item-label">Vercel + GitHub</div>
+        <div class="summary-item-val">Grátis</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-item-label">Beehiiv (até 2.5k subs)</div>
+        <div class="summary-item-val">Grátis</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-item-label">Domínio .fm</div>
+        <div class="summary-item-val">~US$30/ano</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-item-label">TOTAL mensal</div>
+        <div class="summary-item-val">~US$10/mês</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function toggleTask(el) {
+    el.classList.toggle('done');
+    updateProgress();
+  }
+
+  function updateProgress() {
+    const total = document.querySelectorAll('.task').length;
+    const done = document.querySelectorAll('.task.done').length;
+    const pct = Math.round((done / total) * 100);
+    document.getElementById('progress-fill').style.width = pct + '%';
+    document.getElementById('progress-text').textContent = done + ' de ' + total + ' tarefas';
+  }
+
+  updateProgress();
+</script>
+</body>
+</html>

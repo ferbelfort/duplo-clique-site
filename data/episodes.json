@@ -1,0 +1,374 @@
+{
+  "episodes": [
+    {
+      "id": 41,
+      "title": "Receita da Longevidade, Soft Power Brasileiro e NY Socialista",
+      "date": "2026-03-10",
+      "duration": "48 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "longevidade",
+          "theme_label": "Longevidade",
+          "title": "Peter Attia muda de ideia sobre o que realmente importa para viver mais",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "O médico que escreveu a bíblia da longevidade agora prioriza força muscular sobre cardio. A gente mergulha no que mudou e por quê.",
+          "hook": "A hierarquia atualizada — sono, força, aeróbico, nutrição — e o que surpreendeu a gente",
+          "tension": "Se o especialista mais rigoroso do mundo muda de ideia, o que isso diz sobre a certeza que a gente tem nas recomendações de saúde?",
+          "type": "analise"
+        },
+        {
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
+          "title": "Do Earthshot ao GP de SP: o Brasil está tendo seu momento global",
+          "timestamp": "18:00",
+          "timestamp_seconds": 1080,
+          "description": "Earthshot em Brasília, F1 em São Paulo, Cop30 em Belém. O soft power brasileiro está em alta — mas conseguimos converter atenção em influência real?",
+          "hook": "O paradoxo de exportar imagem positiva enquanto os problemas internos persistem",
+          "tension": "Soft power sem hard power é branding — e branding sem produto consistente não dura.",
+          "type": "analise"
+        },
+        {
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
+          "title": "Nova York testa um modelo que mistura controle de aluguéis com incentivos tech",
+          "timestamp": "34:00",
+          "timestamp_seconds": 2040,
+          "description": "A cidade mais capitalista do mundo experimenta políticas que pareciam impensáveis há 5 anos.",
+          "hook": "Quando urbanismo progressista encontra capitalismo — funciona ou implode?",
+          "tension": "Controlar preços resolve o sintoma ou piora a doença?",
+          "type": "noticia"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "CRISPR, AlphaFold e o Futuro da Medicina Personalizada",
+      "date": "2026-01-06",
+      "duration": "52 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "ciencia",
+          "theme_label": "Ciência & Longevidade",
+          "title": "CRISPR: a tesoura molecular que está reescrevendo o que é possível na medicina",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "A técnica que corrige mutações específicas já está em testes clínicos. A gente explica como funciona — sem jargão.",
+          "hook": "A linha tênue entre corrigir doenças e projetar seres humanos — e quem decide onde fica essa linha",
+          "tension": "Editar o genoma humano é medicina ou é design? Quanto mais conseguimos fazer, mais essa pergunta fica sem resposta.",
+          "type": "analise"
+        },
+        {
+          "theme": "ia",
+          "theme_label": "Inteligência Artificial",
+          "title": "AlphaFold: como a IA da DeepMind acelerou a biologia em décadas",
+          "timestamp": "28:00",
+          "timestamp_seconds": 1680,
+          "description": "Prever a estrutura 3D de uma proteína levava anos. O AlphaFold faz em minutos — e isso está redesenhando como drogas são descobertas.",
+          "hook": "A convergência entre IA e biotech — e por que os próximos 5 anos podem mudar a medicina mais do que os últimos 50",
+          "tension": "Quando a IA faz ciência mais rápido que os cientistas, o que muda no papel do pesquisador?",
+          "type": "analise"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Agentes de IA: a Próxima Revolução que Já Começou",
+      "date": "2025-12-09",
+      "duration": "47 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "ia",
+          "theme_label": "Inteligência Artificial",
+          "title": "O que são agentes de IA e por que isso é diferente de tudo que veio antes",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "A diferença entre IA que responde e IA que age. Apresentamos o Manus, agente chinês que executa tarefas reais na web.",
+          "hook": "Quando a IA para de responder e começa a executar, o que muda para o trabalhador do conhecimento?",
+          "tension": "Quanto controle humano faz sentido quando o agente executa melhor do que o humano?",
+          "type": "analise"
+        },
+        {
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
+          "title": "Por que o agente mais avançado veio da China — e o que isso diz sobre a corrida da IA",
+          "timestamp": "22:00",
+          "timestamp_seconds": 1320,
+          "description": "O Manus foi desenvolvido por uma startup chinesa com fração do orçamento das Big Techs americanas.",
+          "hook": "Eficiência vs. escala — e o que DeepSeek e Manus ensinaram sobre as premissas ocidentais",
+          "tension": "Se a China consegue inovar sob restrições de chips, o que a estratégia americana de embargo realmente resolve?",
+          "type": "analise"
+        },
+        {
+          "theme": "trabalho",
+          "theme_label": "Trabalho & Sociedade",
+          "title": "O impacto dos agentes no mercado de trabalho: além do hype",
+          "timestamp": "36:00",
+          "timestamp_seconds": 2160,
+          "description": "Não é sobre substituição de empregos — é sobre o que muda quando qualquer pessoa tem um agente capaz de executar tarefas complexas.",
+          "hook": "O que agentes autônomos fazem com a vantagem competitiva de quem sabe usar ferramentas digitais?",
+          "tension": "Democratizar capacidade é bom — mas democratizar capacidade de execução em escala tem externalidades que ainda não mapeamos.",
+          "type": "analise"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Felicidade Nórdica, Bolsonaro Julgado, Escalada na Venezuela e Jantar dos Tech Bros",
+      "date": "2026-01-20",
+      "duration": "55 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
+          "title": "O modelo nórdico de felicidade: o que funciona e o que a gente romantiza",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "Dinamarca, Noruega e Finlândia no topo dos rankings de felicidade — de novo. Mas o que esses rankings medem de verdade?",
+          "hook": "Por que importar o modelo nórdico para o Brasil é mais complexo do que parece",
+          "tension": "Alta felicidade coletiva pode depender de homogeneidade — e isso tem um custo que ninguém menciona.",
+          "type": "analise"
+        },
+        {
+          "theme": "politica",
+          "theme_label": "Regulação & Política",
+          "title": "O julgamento de Bolsonaro e o que ele sinaliza para 2026",
+          "timestamp": "16:00",
+          "timestamp_seconds": 960,
+          "description": "O STF avança com o julgamento. O timing político e as reações revelam o estado da democracia brasileira.",
+          "hook": "A dinâmica de poder entre Judiciário e opinião pública — quem influencia quem?",
+          "tension": "Decisões judiciais que parecem técnicas raramente são apenas técnicas.",
+          "type": "noticia"
+        },
+        {
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
+          "title": "Venezuela: a escalada que o mundo está ignorando",
+          "timestamp": "30:00",
+          "timestamp_seconds": 1800,
+          "description": "Enquanto a atenção global está em outros conflitos, a situação na Venezuela se deteriora. Maduro, oposição e a disputa de influência EUA-China.",
+          "hook": "O que a Venezuela revela sobre a nova geopolítica do hemisfério",
+          "tension": "A América Latina virou tabuleiro de uma disputa que os venezuelanos não escolheram jogar.",
+          "type": "noticia"
+        },
+        {
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
+          "title": "O jantar dos tech bros: quando o Vale do Silício faz política",
+          "timestamp": "44:00",
+          "timestamp_seconds": 2640,
+          "description": "CEOs de Big Tech sentam à mesa com o poder político. Não é lobby — é algo mais direto.",
+          "hook": "De 'move fast and break things' para 'sit at the table and shape policy'",
+          "tension": "Quando quem controla a infraestrutura digital quer controlar a narrativa, o que fica para a democracia?",
+          "type": "analise"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Apagão na Península Ibérica: Infraestrutura Frágil e Dependência Digital",
+      "date": "2025-10-14",
+      "duration": "44 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "infraestrutura",
+          "theme_label": "Infraestrutura & Poder",
+          "title": "O megaapagão da Espanha e Portugal: o que realmente aconteceu",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "Um evento que tirou energia de 60 milhões de pessoas. Os fatos, as causas investigadas e o que os governos admitiram.",
+          "hook": "A cascata de falhas que nenhum engenheiro diria que era possível — mas aconteceu",
+          "tension": "A mesma integração que torna a rede eficiente é o que torna o colapso em cascata possível.",
+          "type": "noticia"
+        },
+        {
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
+          "title": "Infraestrutura crítica como alvo geopolítico: o novo campo de batalha",
+          "timestamp": "18:00",
+          "timestamp_seconds": 1080,
+          "description": "Ataques a redes elétricas, cabos submarinos, sistemas de água. A fragilidade da infraestrutura moderna não é bug — é feature dos conflitos atuais.",
+          "hook": "Quem tem interesse em testar a resiliência da Europa — e como o apagão ibérico entra nessa equação",
+          "tension": "Não há como saber com certeza se foi ataque ou falha técnica — e essa ambiguidade é estratégica.",
+          "type": "analise"
+        },
+        {
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
+          "title": "72 horas sem energia: o que o apagão revelou sobre nossa dependência digital",
+          "timestamp": "34:00",
+          "timestamp_seconds": 2040,
+          "description": "Do pagamento em espécie que ninguém tem ao pânico nos supermercados: o que a experiência real ensina sobre resiliência individual.",
+          "hook": "Não é catastrofismo — é preparação básica que a maioria ignora",
+          "tension": "A conveniência digital criou uma fragilidade que só aparece quando o sistema falha.",
+          "type": "analise"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "23andMe Faliu, SignalGate e Adolescência na Netflix",
+      "date": "2025-08-26",
+      "duration": "50 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "privacidade",
+          "theme_label": "Privacidade",
+          "title": "23andMe faliu — e o que acontece com os dados de DNA de 15 milhões de pessoas?",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "A empresa que convenceu milhões a enviar DNA pelo correio vai à falência. Os dados ficam? São vendidos? Quem decide?",
+          "hook": "O modelo de negócio da 23andMe nunca foi DNA — foi dados. E agora esses dados estão no limbo.",
+          "tension": "Quando uma empresa de dados falência, os dados não morrem com ela — e as leis de proteção raramente acompanham.",
+          "type": "noticia"
+        },
+        {
+          "theme": "politica",
+          "theme_label": "Regulação & Política",
+          "title": "SignalGate: quando membros do governo americano usaram app comercial para discutir operação militar",
+          "timestamp": "18:00",
+          "timestamp_seconds": 1080,
+          "description": "Jornalistas inadvertidamente adicionados a um grupo do Signal com altos funcionários. O escândalo que revela mais sobre cultura de segurança do que sobre tecnologia.",
+          "hook": "O problema não foi o Signal — foi a suposição de que tecnologia substitui protocolo",
+          "tension": "Governos que adotam ferramentas consumer para comunicação sensível criam vulnerabilidades que nenhum app consegue resolver.",
+          "type": "noticia"
+        },
+        {
+          "theme": "cultura",
+          "theme_label": "Cultura",
+          "title": "Adolescência na Netflix: por que essa série provocou mais reflexão que dez relatórios sobre saúde mental",
+          "timestamp": "35:00",
+          "timestamp_seconds": 2100,
+          "description": "Uma série britânica sobre um adolescente que comete um crime chocante. A análise de por que ela chegou onde pesquisas não chegam.",
+          "hook": "O que a ficção consegue dizer sobre masculinidade, redes sociais e saúde mental que o jornalismo não consegue",
+          "tension": "Ficção que incomoda mais do que dados: o que isso diz sobre como processamos verdades difíceis?",
+          "type": "analise"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Tarifaço do Trump, Mercados Derretendo e Hackers Pedindo Resgate",
+      "date": "2025-04-08",
+      "duration": "51 min",
+      "youtube_url": "https://www.youtube.com/c/DuploClique",
+      "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
+      "buzzsprout_url": "https://www.buzzsprout.com/2437885",
+      "segments": [
+        {
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
+          "title": "O tarifaço de Trump e o derretimento dos mercados globais",
+          "timestamp": "00:00",
+          "timestamp_seconds": 0,
+          "description": "Tarifas de até 145% sobre produtos chineses. Os mercados reagiram imediatamente. A gente explica a lógica por trás da estratégia — e se tem uma.",
+          "hook": "Protecionismo ou negociação de força? A ambiguidade é intencional — e essa é a parte mais importante.",
+          "tension": "Tarifas que machucam o parceiro sempre machucam também quem as impõe. A questão é: quem aguenta mais?",
+          "type": "noticia"
+        },
+        {
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
+          "title": "A guerra comercial EUA-China: além das manchetes",
+          "timestamp": "25:00",
+          "timestamp_seconds": 1500,
+          "description": "Chips, soja, raras-terres, fentanil. O comércio bilateral como palco de uma disputa de poder que vai muito além de produtos.",
+          "hook": "Por que a guerra comercial é na verdade uma guerra de dependências — e quem está mais exposto",
+          "tension": "Desacoplar duas economias tão interligadas pode ser mais destrutivo do que o conflito que se tenta evitar.",
+          "type": "analise"
+        },
+        {
+          "theme": "privacidade",
+          "theme_label": "Privacidade",
+          "title": "Ransomware em infraestrutura crítica: o ataque que paralisa hospitais e cidades",
+          "timestamp": "40:00",
+          "timestamp_seconds": 2400,
+          "description": "Hackers exigindo resgate para devolver acesso a sistemas hospitalares. O que isso revela sobre a segurança da infraestrutura digital.",
+          "hook": "Quando cibersegurança deixa de ser problema de TI e vira questão de saúde pública",
+          "tension": "Pagar o resgate financia o próximo ataque. Não pagar arrisca vidas. Não há resposta certa.",
+          "type": "analise"
+        }
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "id": "ia",
+      "label": "Inteligência Artificial",
+      "emoji": "🤖"
+    },
+    {
+      "id": "geopolitica",
+      "label": "Geopolítica",
+      "emoji": "🌐"
+    },
+    {
+      "id": "infraestrutura",
+      "label": "Infraestrutura & Poder",
+      "emoji": "⚡"
+    },
+    {
+      "id": "economia",
+      "label": "Economia & Mercados",
+      "emoji": "📈"
+    },
+    {
+      "id": "trabalho",
+      "label": "Trabalho & Sociedade",
+      "emoji": "👥"
+    },
+    {
+      "id": "ciencia",
+      "label": "Ciência & Longevidade",
+      "emoji": "🧬"
+    },
+    {
+      "id": "politica",
+      "label": "Regulação & Política",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "bigtech",
+      "label": "Big Tech",
+      "emoji": "💻"
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "emoji": "🎭"
+    },
+    {
+      "id": "privacidade",
+      "label": "Privacidade",
+      "emoji": "🔒"
+    },
+    {
+      "id": "longevidade",
+      "label": "Longevidade",
+      "emoji": "🧬"
+    },
+    {
+      "id": "sociedade",
+      "label": "Trabalho & Sociedade",
+      "emoji": "👥"
+    }
+  ]
+}

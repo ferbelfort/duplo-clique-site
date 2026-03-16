@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duplo Clique - Tecnologia, IA, Geopolítica e Economia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1B7FE0;
+            --accent: #C8FF00;
+            --text-dark: #1a1a2e;
+            --text-light: #ffffff;
+            --bg-light: #ffffff;
+            --bg-dark: #f8f8f8;
+        }
+
+        body {
+            font-family: 'Archivo', sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background: var(--bg-light);
+            border-bottom: 2px solid var(--accent);
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+        }
+
+        .logo {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 18px;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-dark);
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .cta-button {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #0f5ab0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--bg-light);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero .container {
+            max-width: 900px;
+        }
+
+        .hero-tagline {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .hero h1 {
+            font-size: clamp(32px, 5vw, 52px);
+            line-height: 1.2;
+            margin-bottom: 24px;
+            color: var(--text-dark);
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 48px;
+            line-height: 1.8;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 16px 32px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #0f5ab0;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            padding: 16px 32px;
+            border: 2px solid var(--primary);
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+
+        .latest-episode-card {
+            background: var(--bg-dark);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 32px;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .episode-meta {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .episode-title {
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+
+        .episode-segments {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .segment-item {
+            border-left: 4px solid var(--primary);
+            padding-left: 16px;
+        }
+
+        .segment-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .segment-description {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 40px 20px;
+        }
+
+        .stats-bar .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .stat-item p {
+            font-size: 14px;
+            opacity: 0.95;
+        }
+
+        /* Topics Grid */
+        .topics-section {
+            padding: 60px 20px;
+            background: var(--bg-light);
+        }
+
+        .topics-section h2 {
+            text-align: center;
+            font-size: clamp(28px, 4vw, 36px);
+            margin-bottom: 48px;
+            color: var(--text-dark);
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 16px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .topic-chip {
+            background: var(--bg-dark);
+            border: 2px solid transparent;
+            padding: 16px 20px;
+            border-radius: 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .topic-chip:hover {
+            border-color: var(--primary);
+            background: #f0f8ff;
+        }
+
+        .topic-chip.active {
+            background: var(--primary);
+            color: var(--text-light);
+            border-color: var(--primary);
+        }
+
+        /* Episodes Archive */
+        .episodes-section {
+            padding: 60px 20px;
+            background: var(--bg-dark);
+        }
+
+        .episodes-section h2 {
+            font-size: clamp(28px, 4vw, 36px);
+            margin-bottom: 48px;
+            color: var(--text-dark);
+        }
+
+        .episodes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .episode-card {
+            background: var(--text-light);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+
+        .episode-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .episode-header {
+            padding: 32px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .episode-header-info h3 {
+            font-size: 22px;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+
+        .episode-header-meta {
+            font-size: 13px;
+            color: #999;
+        }
+
+        .episode-segments-list {
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .segment-card {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background: var(--bg-dark);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .segment-card:hover {
+            background: #f0f0f0;
+        }
+
+        .segment-tag {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            white-space: nowrap;
+            margin-bottom: 8px;
+        }
+
+        .theme-ia { background: #9b59b6; color: white; }
+        .theme-geopolitica { background: #3498db; color: white; }
+        .theme-infraestrutura { background: #a0826d; color: white; }
+        .theme-economia { background: #e67e22; color: white; }
+        .theme-sociedade { background: #e74c3c; color: white; }
+        .theme-ciencia { background: #1abc9c; color: white; }
+        .theme-politica { background: #f39c12; color: white; }
+        .theme-bigtech { background: #27ae60; color: white; }
+        .theme-cultura { background: #5e5fa3; color: white; }
+        .theme-privacidade { background: #7f8c8d; color: white; }
+        .theme-longevidade { background: #16a085; color: white; }
+        .theme-trabalho { background: #e74c3c; color: white; }
+
+        .segment-content {
+            flex: 1;
+        }
+
+        .segment-time {
+            display: inline-block;
+            font-size: 12px;
+            color: var(--primary);
+            font-weight: 700;
+            margin-left: 8px;
+        }
+
+        .segment-description-text {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .segment-expand-btn {
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 0;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+
+        .segment-expand-btn:hover {
+            color: #0f5ab0;
+        }
+
+        .segment-details {
+            display: none;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .segment-details.expanded {
+            display: block;
+        }
+
+        .detail-item {
+            margin-bottom: 8px;
+            font-size: 13px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .detail-label {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .episode-footer {
+            padding: 32px;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .episode-footer a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            border: 2px solid var(--primary);
+            border-radius: 4px;
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 13px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .episode-footer a:hover {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Newsletter Section */
+        .newsletter-section {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 60px 20px;
+        }
+
+        .newsletter-section .container {
+            max-width: 700px;
+        }
+
+        .newsletter-section h2 {
+            font-size: clamp(28px, 4vw, 36px);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .newsletter-intro {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+
+        .newsletter-proof {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .proof-item {
+            text-align: center;
+        }
+
+        .proof-item h4 {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .proof-item p {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group input {
+            padding: 12px 16px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: 'Archivo', sans-serif;
+        }
+
+        .form-group input::placeholder {
+            color: #999;
+        }
+
+        .form-submit {
+            background: var(--accent);
+            color: var(--text-dark);
+            padding: 14px 28px;
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        .form-submit:hover {
+            opacity: 0.9;
+        }
+
+        .newsletter-disclaimer {
+            text-align: center;
+            font-size: 11px;
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 60px 20px;
+            background: var(--bg-light);
+        }
+
+        .about-manifesto {
+            background: var(--primary);
+            color: var(--text-light);
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .about-manifesto h3 {
+            font-size: clamp(20px, 3vw, 28px);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .hosts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-bottom: 40px;
+        }
+
+        .host-card {
+            background: var(--bg-dark);
+            padding: 32px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .host-card h4 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .host-card p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .about-disclaimer {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #856404;
+            text-align: center;
+        }
+
+        /* Where to Listen */
+        .listen-section {
+            padding: 60px 20px;
+            background: var(--bg-dark);
+            text-align: center;
+        }
+
+        .listen-section h2 {
+            font-size: clamp(28px, 4vw, 36px);
+            margin-bottom: 40px;
+            color: var(--text-dark);
+        }
+
+        .listen-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .listen-btn {
+            background: var(--text-light);
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            padding: 14px 28px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .listen-btn:hover {
+            background: var(--primary);
+            color: var(--text-light);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: var(--text-light);
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        footer .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .footer-logo {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 16px;
+            color: var(--accent);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-light);
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 16px;
+                flex-wrap: wrap;
+            }
+
+            .hero {
+                padding: 48px 20px;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+            }
+
+            .episode-header {
+                flex-direction: column;
+            }
+
+            .topics-grid {
+                grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            }
+
+            .hosts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .listen-buttons {
+                flex-direction: column;
+            }
+
+            .listen-btn {
+                width: 100%;
+            }
+
+            nav .container {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .stats-bar .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">DUPLO CLIQUE</div>
+            <ul class="nav-links">
+                <li><a href="#episodios">Episódios</a></li>
+                <li><a href="#temas">Temas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><button class="cta-button" onclick="document.querySelector('.newsletter-section').scrollIntoView({ behavior: 'smooth' })">Newsletter</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-tagline">Podcast Semanal</div>
+            <h1>Tecnologia, IA, geopolítica e economia — com explicações, não simplificações.</h1>
+            <p class="hero-subtitle">Toda semana, Fernanda Belfort e Andrea Janér vão além das manchetes.</p>
+
+            <div class="latest-episode-card" id="latest-episode">
+                <p class="episode-meta">Episódio Mais Recente</p>
+                <h2 class="episode-title">Carregando...</h2>
+                <div class="episode-segments"></div>
+            </div>
+
+            <div class="hero-ctas">
+                <button class="btn-primary" onclick="document.querySelector('#episodios').scrollIntoView({ behavior: 'smooth' })">Ver todos os episódios</button>
+                <button class="btn-secondary" onclick="document.querySelector('.newsletter-section').scrollIntoView({ behavior: 'smooth' })">Receber os insights</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stat-item">
+                <h3 id="episode-count">--</h3>
+                <p>Episódios</p>
+            </div>
+            <div class="stat-item">
+                <h3>12</h3>
+                <p>Temas Explorados</p>
+            </div>
+            <div class="stat-item">
+                <h3>Semanalmente</h3>
+                <p>Novos episódios</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Topics Section -->
+    <section class="topics-section" id="temas">
+        <div class="container">
+            <h2>Temas que Exploramos</h2>
+            <div class="topics-grid" id="topics-grid">
+                <!-- Generated from data -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section class="episodes-section" id="episodios">
+        <div class="container">
+            <h2>Arquivo de Episódios</h2>
+            <div class="episodes-list" id="episodes-list">
+                <div class="loading">Carregando episódios...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Toda semana, resumo do episódio</h2>
+            <p class="newsletter-intro">Toda semana, um resumo do episódio — para você já chegar no play sabendo o que está em jogo.</p>
+
+            <div class="newsletter-proof">
+                <div class="proof-item">
+                    <h4>Os temas da semana</h4>
+                    <p>Análise profunda dos tópicos principais</p>
+                </div>
+                <div class="proof-item">
+                    <h4>O ângulo que demos</h4>
+                    <p>Nossa perspectiva única sobre os assuntos</p>
+                </div>
+                <div class="proof-item">
+                    <h4>Por que ouvir</h4>
+                    <p>Por que este episódio importa para você</p>
+                </div>
+            </div>
+
+            <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <button type="submit" class="form-submit">Quero receber →</button>
+            </form>
+
+            <p class="newsletter-disclaimer">
+                Só quando sair episódio novo. Sem spam. <a href="#" style="text-decoration: underline; opacity: 0.9;">Cancele quando quiser.</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="sobre">
+        <div class="container">
+            <div class="about-manifesto">
+                <h3>Tem muita informação. Falta análise. O mundo está mudando rápido demais para se contentar com títulos de notícia.</h3>
+            </div>
+
+            <div class="hosts-grid">
+                <div class="host-card">
+                    <h4>Fernanda Belfort</h4>
+                    <p>Head of Solutions Engineering na Salesforce Brasil. Especialista em tecnologia, negócios e inovação.</p>
+                </div>
+                <div class="host-card">
+                    <h4>Andrea Janér</h4>
+                    <p>CEO da Oxygen. Especialista em tendências, inovação e geopolítica da tecnologia.</p>
+                </div>
+            </div>
+
+            <div class="about-disclaimer">
+                <strong>Disclaimer:</strong> As opiniões expressas no podcast são pessoais e não representam nossas empresas.
+            </div>
+        </div>
+    </section>
+
+    <!-- Where to Listen -->
+    <section class="listen-section">
+        <div class="container">
+            <h2>Onde Ouvir</h2>
+            <div class="listen-buttons">
+                <button class="listen-btn" onclick="window.open('https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7')">🎵 Spotify</button>
+                <button class="listen-btn" onclick="window.open('https://podcasts.apple.com/')">🎙️ Apple Podcasts</button>
+                <button class="listen-btn" onclick="window.open('https://www.youtube.com/c/DuploClique')">📺 YouTube</button>
+                <button class="listen-btn" onclick="window.open('https://www.buzzsprout.com/2437885')">🔊 Buzzsprout</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">DUPLO CLIQUE</div>
+            <div class="footer-links">
+                <a href="#episodios">Episódios</a>
+                <a href="#temas">Temas</a>
+                <a href="#sobre">Sobre</a>
+                <a href="https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7">Spotify</a>
+                <a href="https://www.youtube.com/c/DuploClique">YouTube</a>
+            </div>
+            <div>com Andrea Janér e Fernanda Belfort · 2026</div>
+        </div>
+    </footer>
+
+    <script>
+        let allEpisodes = [];
+        let allThemes = [];
+        let currentFilter = null;
+
+        // Fetch and render data
+        async function loadData() {
+            try {
+                const response = await fetch('./data/episodes.json');
+                const data = await response.json();
+                allEpisodes = data.episodes.sort((a, b) => new Date(b.date) - new Date(a.date));
+                allThemes = data.themes;
+
+                renderLatestEpisode();
+                renderTopics();
+                renderEpisodes();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading episodes:', error);
+                document.getElementById('episodes-list').innerHTML = '<div class="loading">Erro ao carregar episódios. Verifique se data/episodes.json existe.</div>';
+            }
+        }
+
+        function renderLatestEpisode() {
+            if (allEpisodes.length === 0) return;
+
+            const latest = allEpisodes[0];
+            const card = document.getElementById('latest-episode');
+
+            let segmentsHTML = latest.segments.slice(0, 3).map(seg => `
+                <div class="segment-item">
+                    <div>
+                        <span class="segment-tag theme-${seg.theme}">${seg.theme_label}</span>
+                        <div class="segment-title">${seg.title}</div>
+                        <div class="segment-description">${seg.description}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            card.innerHTML = `
+                <p class="episode-meta">Episódio #${latest.id} - ${new Date(latest.date).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                <h2 class="episode-title">${latest.title}</h2>
+                <div class="episode-segments">${segmentsHTML}</div>
+            `;
+        }
+
+        function renderTopics() {
+            const grid = document.getElementById('topics-grid');
+            const uniqueThemes = [...new Set(allEpisodes.flatMap(ep => ep.segments.map(seg => seg.theme)))];
+
+            let html = '<div class="topic-chip active" onclick="filterByTheme(null, this)">Todos</div>';
+
+            uniqueThemes.forEach(themeId => {
+                const theme = allThemes.find(t => t.id === themeId);
+                if (theme) {
+                    html += `<div class="topic-chip" onclick="filterByTheme('${themeId}', this)">${theme.emoji} ${theme.label}</div>`;
+                }
+            });
+
+            grid.innerHTML = html;
+        }
+
+        function filterByTheme(themeId, element) {
+            currentFilter = themeId;
+
+            document.querySelectorAll('.topic-chip').forEach(chip => {
+                chip.classList.remove('active');
+            });
+            element.classList.add('active');
+
+            renderEpisodes();
+        }
+
+        function renderEpisodes() {
+            const episodesList = document.getElementById('episodes-list');
+
+            let filtered = allEpisodes;
+            if (currentFilter) {
+                filtered = allEpisodes.filter(ep =>
+                    ep.segments.some(seg => seg.theme === currentFilter)
+                );
+            }
+
+            if (filtered.length === 0) {
+                episodesList.innerHTML = '<div class="loading">Nenhum episódio encontrado para este tema.</div>';
+                return;
+            }
+
+            let html = filtered.map(ep => {
+                const segmentsHTML = ep.segments.map((seg, idx) => `
+                    <div class="segment-card">
+                        <div class="segment-content">
+                            <span class="segment-tag theme-${seg.theme}">${seg.theme_label}</span>
+                            <div class="segment-title">${seg.title}${seg.timestamp ? '<span class="segment-time">' + seg.timestamp + '</span>' : ''}</div>
+                            <div class="segment-description-text">${seg.description}</div>
+                            <button class="segment-expand-btn" onclick="toggleSegmentDetails(this)">Mostrar mais</button>
+                            <div class="segment-details">
+                                <div class="detail-item"><span class="detail-label">Tensão Central:</span> ${seg.tension}</div>
+                                <div class="detail-item"><span class="detail-label">Gancho:</span> ${seg.hook}</div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+
+                const episodeDate = new Date(ep.date).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' });
+
+                return `
+                    <div class="episode-card">
+                        <div class="episode-header">
+                            <div class="episode-header-info">
+                                <h3>Episódio #${ep.id}: ${ep.title}</h3>
+                                <div class="episode-header-meta">${episodeDate} • ${ep.duration}</div>
+                            </div>
+                        </div>
+                        <div class="episode-segments-list">${segmentsHTML}</div>
+                        <div class="episode-footer">
+                            <a onclick="window.open('${ep.youtube_url}')">▶ Ouvir no YouTube</a>
+                            <a onclick="window.open('${ep.spotify_url}')">🎵 Ouvir no Spotify</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            episodesList.innerHTML = html;
+        }
+
+        function toggleSegmentDetails(button) {
+            const details = button.nextElementSibling;
+            details.classList.toggle('expanded');
+            button.textContent = details.classList.contains('expanded') ? 'Mostrar menos' : 'Mostrar mais';
+        }
+
+        function updateStats() {
+            document.getElementById('episode-count').textContent = allEpisodes.length;
+        }
+
+        function handleNewsletterSubmit(event) {
+            event.preventDefault();
+            alert('Obrigado por se inscrever! Em breve você receberá um email de confirmação.');
+            event.target.reset();
+        }
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
