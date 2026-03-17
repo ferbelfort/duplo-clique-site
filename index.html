@@ -66,7 +66,7 @@
             font-family: 'Archivo Black', sans-serif;
             font-size: 18px;
             font-weight: 900;
-            color: var(--accent);
+            color: var(--primary);
             letter-spacing: -0.02em;
         }
 
@@ -814,7 +814,7 @@
                 <p>Episódios</p>
             </div>
             <div class="stat-item">
-                <h3>12</h3>
+                <h3 id="theme-count">--</h3>
                 <p>Temas Explorados</p>
             </div>
             <div class="stat-item">
@@ -913,8 +913,8 @@
             <h2>Onde Ouvir</h2>
             <div class="listen-buttons">
                 <button class="listen-btn" onclick="window.open('https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7')">🎵 Spotify</button>
-                <button class="listen-btn" onclick="window.open('https://podcasts.apple.com/')">🎙️ Apple Podcasts</button>
-                <button class="listen-btn" onclick="window.open('https://www.youtube.com/c/DuploClique')">📺 YouTube</button>
+                <button class="listen-btn" onclick="window.open('https://podcasts.apple.com/pt/podcast/duplo-clique/id1789854916')">🎙️ Apple Podcasts</button>
+                <button class="listen-btn" onclick="window.open('https://www.youtube.com/@DuploCliquePodcast')">📺 YouTube</button>
                 <button class="listen-btn" onclick="window.open('https://www.buzzsprout.com/2437885')">🔊 Buzzsprout</button>
             </div>
         </div>
@@ -929,7 +929,7 @@
                 <a href="#temas">Temas</a>
                 <a href="#sobre">Sobre</a>
                 <a href="https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7">Spotify</a>
-                <a href="https://www.youtube.com/c/DuploClique">YouTube</a>
+                <a href="https://www.youtube.com/@DuploCliquePodcast">YouTube</a>
             </div>
             <div>com Andrea Janér e Fernanda Belfort · 2026</div>
         </div>
@@ -946,7 +946,7 @@
                 const response = await fetch('./data/episodes.json');
                 const data = await response.json();
                 allEpisodes = data.episodes.sort((a, b) => new Date(b.date) - new Date(a.date));
-                allThemes = data.themes;
+                allThemes = data.themes || [];
 
                 renderLatestEpisode();
                 renderTopics();
@@ -983,16 +983,21 @@
 
         function renderTopics() {
             const grid = document.getElementById('topics-grid');
-            const uniqueThemes = [...new Set(allEpisodes.flatMap(ep => ep.segments.map(seg => seg.theme)))];
 
             let html = '<div class="topic-chip active" onclick="filterByTheme(null, this)">Todos</div>';
 
-            uniqueThemes.forEach(themeId => {
-                const theme = allThemes.find(t => t.id === themeId);
-                if (theme) {
-                    html += `<div class="topic-chip" onclick="filterByTheme('${themeId}', this)">${theme.emoji} ${theme.label}</div>`;
-                }
-            });
+            // Use themes from JSON if available, otherwise derive from episodes
+            if (allThemes && allThemes.length > 0) {
+                allThemes.forEach(theme => {
+                    html += `<div class="topic-chip" onclick="filterByTheme('${theme.id}', this)">${theme.emoji} ${theme.label}</div>`;
+                });
+            } else {
+                const uniqueThemes = [...new Set(allEpisodes.flatMap(ep => ep.segments.map(seg => seg.theme)))];
+                uniqueThemes.forEach(themeId => {
+                    const label = allEpisodes.flatMap(ep => ep.segments).find(s => s.theme === themeId)?.theme_label || themeId;
+                    html += `<div class="topic-chip" onclick="filterByTheme('${themeId}', this)">${label}</div>`;
+                });
+            }
 
             grid.innerHTML = html;
         }
@@ -1069,6 +1074,8 @@
 
         function updateStats() {
             document.getElementById('episode-count').textContent = allEpisodes.length;
+            const uniqueThemes = new Set(allEpisodes.flatMap(ep => ep.segments.map(seg => seg.theme)));
+            document.getElementById('theme-count').textContent = uniqueThemes.size;
         }
 
         function handleNewsletterSubmit(event) {
