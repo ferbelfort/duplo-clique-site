@@ -7,7 +7,7 @@
       "duration": "1h19min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -15,29 +15,29 @@
           "title": "OpenClaw com Lars",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre openclaw com lars, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "OpenClaw é o novo benchmark de agentes autônomos que ganhou tração quando Lars participou do podcast para explicar como a IA está saindo do laboratório para executar tarefas reais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre openclaw com lars",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Irã",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre irã, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Geopolítica e tecnologia se fundem enquanto mísseis, drones e narrativas midiáticas redefinem o conflito envolvendo o Irã.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre irã",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "SXSW",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre sxsw, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do SXSW, o festival que virou epicentro global de inovação, tecnologia e cultura.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre sxsw",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -51,15 +51,15 @@
       "duration": "43min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "ICE Em Columbia",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre ice em columbia, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Ações do ICE em campus universitários geraram protestos e levantaram debate sobre limites da política migratória.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ice em columbia",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -70,18 +70,18 @@
           "title": "Anthropic X Pentágono",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre anthropic x pentágono, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Confronto entre o Pentágono e a Anthropic sobre os limites éticos do uso militar da IA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre anthropic x pentágono",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Figurões Na Teia De Epstein",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre figurões na teia de epstein, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Novos documentos revelam conexões de figuras poderosas com Jeffrey Epstein, reacendendo escândalos no topo do poder.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre figurões na teia de epstein",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -95,7 +95,7 @@
       "duration": "1h06min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -103,40 +103,40 @@
           "title": "OpenClaw na OpenAI",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre openclaw na openai, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A OpenAI enfrenta turbulência interna enquanto o modelo OpenClaw desafia suas premissas sobre segurança de agentes.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre openclaw na openai",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "AI Summit na Índia",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre ai summit na índia, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O AI Summit na Índia reposiciona o país como player global na corrida pela inteligência artificial.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ai summit na índia",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "O Júri da Meta",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre o júri da meta, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Julgamento antitruste da Meta pode redesenhar o mapa de poder das big techs.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o júri da meta",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Ano do Cavalo de Fogo",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre ano do cavalo de fogo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O Ano do Cavalo de Fogo como metáfora para agir com ousadia em tempos de transformação acelerada.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ano do cavalo de fogo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -150,26 +150,26 @@
       "duration": "1h07min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Conferência de Munique",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre conferência de munique, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A Conferência de Segurança de Munique expôs as fraturas da ordem global e novas dinâmicas de poder.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre conferência de munique",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
           "title": "O Fim do SaaS?",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre o fim do saas?, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A IA está matando o modelo SaaS? Interfaces desaparecendo e agentes que fazem tudo mudam a lógica de monetização.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o fim do saas?",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -180,18 +180,18 @@
           "title": "Whistleblowers da IA",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre whistleblowers da ia, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Denunciantes de dentro das big techs de IA revelam riscos que empresas prefeririam esconder.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre whistleblowers da ia",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
           "title": "Valent-AI-ne's Day",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre valent-ai-ne's day, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Como a IA está mudando até as relações pessoais — do dating apps à geração de conteúdo romântico.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre valent-ai-ne's day",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -205,7 +205,7 @@
       "duration": "1h03min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -213,7 +213,7 @@
           "title": "Vídeo Racista de Trump",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre vídeo racista de trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Amplificação de conteúdo racista via redes sociais e as engrenagens de poder por trás do vídeo.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre vídeo racista de trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -224,18 +224,18 @@
           "title": "Fusão xAI + SpaceX",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre fusão xai + spacex, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A fusão entre xAI e SpaceX cria um conglomerado que une IA, espaço e telecomunicações sob Elon Musk.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre fusão xai + spacex",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Bad Bunny no SuperBowl",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre bad bunny no superbowl, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Bad Bunny no Super Bowl como fenômeno cultural e latino que transcende a música.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre bad bunny no superbowl",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -246,7 +246,7 @@
           "title": "Layoffs no Washington Post",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre layoffs no washington post, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Demissões no Washington Post refletem a crise do jornalismo tradicional na era digital.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre layoffs no washington post",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -260,7 +260,7 @@
       "duration": "1h07min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -268,7 +268,7 @@
           "title": "Escalada do ICE",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre escalada do ice, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Protestos, jornalistas detidos e morte de Alex Pratt viraram divisor de águas no debate sobre imigração.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre escalada do ice",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -279,7 +279,7 @@
           "title": "Amigos de Epstein",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre amigos de epstein, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Novos desdobramentos do caso Epstein revelam a extensão das conexões com o poder.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre amigos de epstein",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -290,7 +290,7 @@
           "title": "OpenClawd",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre openclawd, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "OpenClawd representa uma nova geração de agentes autônomos que misturam capacidades de Claude e OpenAI.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre openclawd",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -301,7 +301,7 @@
           "title": "MoltBook",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre moltbook, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "MoltBook propõe um novo paradigma de hardware que muda junto com o software — o laptop que evolui.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre moltbook",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -315,7 +315,7 @@
       "duration": "46min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "geopolitica",
@@ -323,7 +323,7 @@
           "title": "Andrea",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre andrea, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto de Davos, Andrea traz os bastidores das discussões que moldam o futuro global.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre andrea",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -334,7 +334,7 @@
           "title": "Direto de Davos",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre direto de davos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do centro das discussões em Davos, onde as decisões que moldam o futuro global são tomadas. Dinâmicas geopolíticas e vozes influentes.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre direto de davos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -348,37 +348,37 @@
       "duration": "1h00min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Expectativa de Davos",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre expectativa de davos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Davos volta ao centro do jogo: CEOs de IA no palco e Trump chegando com comitiva.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre expectativa de davos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Groenlândia esquenta",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre groenlândia esquenta, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A Groenlândia aquece diplomaticamente com interesse renovado dos EUA, levantando questões de soberania.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre groenlândia esquenta",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump vs. Fed",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre trump vs. fed, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O embate entre Trump e o Federal Reserve expõe tensões entre política monetária e ambição presidencial.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump vs. fed",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -389,7 +389,7 @@
           "title": "ChatGPT Ads",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre chatgpt ads, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "ChatGPT começa a testar anúncios — o que muda quando a IA vira plataforma de publicidade?",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre chatgpt ads",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -403,7 +403,7 @@
       "duration": "1h12min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "geopolitica",
@@ -411,29 +411,29 @@
           "title": "Trump Avança Sobre Venezuela",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump avança sobre venezuela, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Miami sob snipers, Maduro capturado e o lema FAFO ganhando corpo. Dissecamos o avanço dos EUA sobre a Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump avança sobre venezuela",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Groenlândia",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre groenlândia, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Miami sob snipers, Maduro capturado e o lema FAFO ganhando corpo. Dissecamos o avanço dos EUA sobre a Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre groenlândia",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Imigrantes – Nudez no Grok",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre imigrantes – nudez no grok, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Miami sob snipers, Maduro capturado e o lema FAFO ganhando corpo. Dissecamos o avanço dos EUA sobre a Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre imigrantes – nudez no grok",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -447,7 +447,7 @@
       "duration": "48min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -455,7 +455,7 @@
           "title": "Retrospectiva: Um Ano Que Pediu Fatos",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre retrospectiva: um ano que pediu fatos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Se atenção é a moeda do nosso tempo, escolher onde olhar virou resistência. Balanço honesto de 47 episódios.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre retrospectiva: um ano que pediu fatos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -466,7 +466,7 @@
           "title": "Contexto",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre contexto, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Se atenção é a moeda do nosso tempo, escolher onde olhar virou resistência. Balanço honesto de 47 episódios.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre contexto",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -477,7 +477,7 @@
           "title": "Conversa",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre conversa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Se atenção é a moeda do nosso tempo, escolher onde olhar virou resistência. Balanço honesto de 47 episódios.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre conversa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -488,7 +488,7 @@
           "title": "Leveza",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre leveza, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Se atenção é a moeda do nosso tempo, escolher onde olhar virou resistência. Balanço honesto de 47 episódios.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre leveza",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -502,37 +502,37 @@
       "duration": "57min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "infraestrutura",
-          "theme_label": "Infraestrutura",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Pessoas do Ano da Time",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre pessoas do ano da time, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A escolha da Time expõe o eixo real de poder na tecnologia: CEOs de modelos de IA, fabricantes de chips e plataformas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre pessoas do ano da time",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "infraestrutura",
-          "theme_label": "Infraestrutura",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Cultura da Performance",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre cultura da performance, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A escolha da Time expõe o eixo real de poder na tecnologia: CEOs de modelos de IA, fabricantes de chips e plataformas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre cultura da performance",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "bigtech",
-          "theme_label": "Big Tech",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Plot Twist da Netflix",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre plot twist da netflix, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A escolha da Time expõe o eixo real de poder na tecnologia: CEOs de modelos de IA, fabricantes de chips e plataformas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre plot twist da netflix",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -543,7 +543,7 @@
           "title": "Warner",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre warner, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A escolha da Time expõe o eixo real de poder na tecnologia: CEOs de modelos de IA, fabricantes de chips e plataformas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre warner",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -557,7 +557,7 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -565,29 +565,29 @@
           "title": "OxyTrends",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre oxytrends, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "IA acelerando enquanto o dinheiro não fecha, disputa global por chips e Big Tech reposicionando estratégia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre oxytrends",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Netflix Toma Hollywood",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre netflix toma hollywood, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "IA acelerando enquanto o dinheiro não fecha, disputa global por chips e Big Tech reposicionando estratégia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre netflix toma hollywood",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Guerra das Redes: Jovens x Governo",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre guerra das redes: jovens x governo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "IA acelerando enquanto o dinheiro não fecha, disputa global por chips e Big Tech reposicionando estratégia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre guerra das redes: jovens x governo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -601,15 +601,15 @@
       "duration": "1h08min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "longevidade",
+          "theme_label": "Longevidade & Saúde",
           "title": "Mushroom Trip",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre mushroom trip, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um bilionário quer medir a própria mente ao vivo tomando psilocibina, transformando ciência em reality show.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre mushroom trip",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -620,18 +620,18 @@
           "title": "Dicas Práticas de IA",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre dicas práticas de ia, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um bilionário quer medir a própria mente ao vivo tomando psilocibina, transformando ciência em reality show.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre dicas práticas de ia",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
           "title": "Renda Máxima Universal",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre renda máxima universal, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um bilionário quer medir a própria mente ao vivo tomando psilocibina, transformando ciência em reality show.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre renda máxima universal",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -645,7 +645,7 @@
       "duration": "54min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "longevidade",
@@ -653,29 +653,29 @@
           "title": "Menopausa",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre menopausa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Os EUA recuaram das tarifas de 40% sobre produtos brasileiros. A COP 30 frustrou expectativas ao não estabelecer meta definitiva.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre menopausa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "COP30 Sem Mapa Do Caminho",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre cop30 sem mapa do caminho, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Os EUA recuaram das tarifas de 40% sobre produtos brasileiros. A COP 30 frustrou expectativas ao não estabelecer meta definitiva.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre cop30 sem mapa do caminho",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump Recua Nas Tarifas",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre trump recua nas tarifas, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Os EUA recuaram das tarifas de 40% sobre produtos brasileiros. A COP 30 frustrou expectativas ao não estabelecer meta definitiva.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump recua nas tarifas",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -689,15 +689,15 @@
       "duration": "1h05min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "COP 30: Entre Contradições",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre cop 30: entre contradições, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O calor de Belém expôs como o Brasil ainda enxerga o Norte. Encontro com povos indígenas e ciência traduzida na casa do Tupinambá.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre cop 30: entre contradições",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -708,7 +708,7 @@
           "title": "Esperança – IA: Do Word Model ao World Model",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre esperança – ia: do word model ao world model, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O calor de Belém expôs como o Brasil ainda enxerga o Norte. Encontro com povos indígenas e ciência traduzida na casa do Tupinambá.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre esperança – ia: do word model ao world model",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -722,37 +722,37 @@
       "duration": "1h06min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "longevidade",
+          "theme_label": "Longevidade & Saúde",
           "title": "Receita da Longevidade",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre receita da longevidade, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Earthshot no Rio, F1 em São Paulo. O papo com Peter Attia trouxe o que realmente importa pra viver bem e por mais tempo.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre receita da longevidade",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Soft Power Brasileiro",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre soft power brasileiro, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Earthshot no Rio, F1 em São Paulo. O papo com Peter Attia trouxe o que realmente importa pra viver bem e por mais tempo.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre soft power brasileiro",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "NY Socialista",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre ny socialista, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Earthshot no Rio, F1 em São Paulo. O papo com Peter Attia trouxe o que realmente importa pra viver bem e por mais tempo.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ny socialista",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -766,15 +766,15 @@
       "duration": "1h10min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Guerra no Rio",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre guerra no rio, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A operação que parou a cidade escancarou o apoio popular à força policial e a velha ausência do Estado.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre guerra no rio",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -785,7 +785,7 @@
           "title": "Medo Nuclear",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre medo nuclear, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A operação que parou a cidade escancarou o apoio popular à força policial e a velha ausência do Estado.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre medo nuclear",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -796,7 +796,7 @@
           "title": "Robô Neo",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre robô neo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A operação que parou a cidade escancarou o apoio popular à força policial e a velha ausência do Estado.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre robô neo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -810,7 +810,7 @@
       "duration": "49min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "infraestrutura",
@@ -818,7 +818,7 @@
           "title": "O Apagão da Nuvem",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre o apagão da nuvem, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um roubo cinematográfico no Louvre expôs a colisão entre segurança, política cultural e turismo em massa.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o apagão da nuvem",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -829,7 +829,7 @@
           "title": "Roubo no Louvre e a Ameaça da Superinteligência",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre roubo no louvre e a ameaça da superinteligência, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um roubo cinematográfico no Louvre expôs a colisão entre segurança, política cultural e turismo em massa.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre roubo no louvre e a ameaça da superinteligência",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -843,7 +843,7 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -851,7 +851,7 @@
           "title": "Vibecoding",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre vibecoding, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do Dreamforce, em São Francisco, onde a internet agêntica já é realidade: IAs que executam tarefas, criam campanhas e fecham vendas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre vibecoding",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -862,18 +862,18 @@
           "title": "Workslop",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre workslop, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do Dreamforce, em São Francisco, onde a internet agêntica já é realidade: IAs que executam tarefas, criam campanhas e fecham vendas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre workslop",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "sociedade",
-          "theme_label": "Trabalho & Sociedade",
+          "theme": "ia",
+          "theme_label": "Inteligência Artificial",
           "title": "No Kings",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre no kings, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do Dreamforce, em São Francisco, onde a internet agêntica já é realidade: IAs que executam tarefas, criam campanhas e fecham vendas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre no kings",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -884,7 +884,7 @@
           "title": "ChatGPT Porn",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre chatgpt porn, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Direto do Dreamforce, em São Francisco, onde a internet agêntica já é realidade: IAs que executam tarefas, criam campanhas e fecham vendas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre chatgpt porn",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -898,7 +898,7 @@
       "duration": "55min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "geopolitica",
@@ -906,7 +906,7 @@
           "title": "Hamas Liberta Reféns",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre hamas liberta reféns, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Uma madrugada tensa virou um raro respiro em Gaza: 20 reféns libertados sob um cessar-fogo mediado pelos EUA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre hamas liberta reféns",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -917,7 +917,7 @@
           "title": "Prêmio Nobel com Destruição Criativa",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre prêmio nobel com destruição criativa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Uma madrugada tensa virou um raro respiro em Gaza: 20 reféns libertados sob um cessar-fogo mediado pelos EUA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre prêmio nobel com destruição criativa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -928,7 +928,7 @@
           "title": "Paz",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre paz, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Uma madrugada tensa virou um raro respiro em Gaza: 20 reféns libertados sob um cessar-fogo mediado pelos EUA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre paz",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -939,7 +939,7 @@
           "title": "Sartre",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre sartre, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Uma madrugada tensa virou um raro respiro em Gaza: 20 reféns libertados sob um cessar-fogo mediado pelos EUA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre sartre",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -953,15 +953,15 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "bigtech",
-          "theme_label": "Big Tech",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Metanol",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre metanol, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um alerta sanitário mudou conversas no bar: metanol expõe uma rede antiga de falsificação e contrabando.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre metanol",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -972,7 +972,7 @@
           "title": "Paz em Gaza",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre paz em gaza, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um alerta sanitário mudou conversas no bar: metanol expõe uma rede antiga de falsificação e contrabando.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre paz em gaza",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -983,18 +983,18 @@
           "title": "TikTok da OpenAI",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre tiktok da openai, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um alerta sanitário mudou conversas no bar: metanol expõe uma rede antiga de falsificação e contrabando.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre tiktok da openai",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "bigtech",
-          "theme_label": "Big Tech",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Príncipe William",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre príncipe william, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Um alerta sanitário mudou conversas no bar: metanol expõe uma rede antiga de falsificação e contrabando.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre príncipe william",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1008,7 +1008,7 @@
       "duration": "47min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "bigtech",
@@ -1016,7 +1016,7 @@
           "title": "TikTok Americano",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre tiktok americano, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O cenário da informação vive transformação preocupante: bilionários controlam plataformas e liberdade de expressão sofre ataques.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre tiktok americano",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1027,7 +1027,7 @@
           "title": "Liberdade de Imprensa",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre liberdade de imprensa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O cenário da informação vive transformação preocupante: bilionários controlam plataformas e liberdade de expressão sofre ataques.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre liberdade de imprensa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1038,7 +1038,7 @@
           "title": "Trump",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O cenário da informação vive transformação preocupante: bilionários controlam plataformas e liberdade de expressão sofre ataques.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1049,7 +1049,7 @@
           "title": "Lula",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre lula, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O cenário da informação vive transformação preocupante: bilionários controlam plataformas e liberdade de expressão sofre ataques.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre lula",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1063,37 +1063,37 @@
       "duration": "1h06min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "ia",
+          "theme_label": "Inteligência Artificial",
           "title": "Foresight",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre foresight, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O papel da imaginação humana em um mundo dominado pela IA. Novidades da Apple e condenação de Bolsonaro.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre foresight",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Novidades da Apple",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre novidades da apple, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O papel da imaginação humana em um mundo dominado pela IA. Novidades da Apple e condenação de Bolsonaro.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre novidades da apple",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Kirk e a Violência Política",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre kirk e a violência política, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O papel da imaginação humana em um mundo dominado pela IA. Novidades da Apple e condenação de Bolsonaro.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre kirk e a violência política",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1104,7 +1104,7 @@
           "title": "E a Condenação de Bolsonaro",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre e a condenação de bolsonaro, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O papel da imaginação humana em um mundo dominado pela IA. Novidades da Apple e condenação de Bolsonaro.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre e a condenação de bolsonaro",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1118,26 +1118,26 @@
       "duration": "1h02min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "geopolitica",
-          "theme_label": "Geopolítica",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Felicidade Nórdica",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre felicidade nórdica, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Modelo social nórdico que se destaca pela alta felicidade e baixa desigualdade. Tensões EUA-Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre felicidade nórdica",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "geopolitica",
-          "theme_label": "Geopolítica",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Bolsonaro Julgado",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre bolsonaro julgado, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Modelo social nórdico que se destaca pela alta felicidade e baixa desigualdade. Tensões EUA-Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre bolsonaro julgado",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1148,7 +1148,7 @@
           "title": "Escalada na Venezuela",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre escalada na venezuela, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Modelo social nórdico que se destaca pela alta felicidade e baixa desigualdade. Tensões EUA-Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre escalada na venezuela",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1159,7 +1159,7 @@
           "title": "Jantar dos Tech Bros",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre jantar dos tech bros, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Modelo social nórdico que se destaca pela alta felicidade e baixa desigualdade. Tensões EUA-Venezuela.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre jantar dos tech bros",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1173,15 +1173,15 @@
       "duration": "1h05min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "ciencia",
+          "theme_label": "Ciência",
           "title": "Nano Banana",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre nano banana, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A matéria da The Economist sobre o Brasil. Com Bolsonaro caracterizado como 'viking do Capitólio', a publicação reconheceu maior maturidade democrática brasileira.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre nano banana",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1192,18 +1192,18 @@
           "title": "PCC na Faria Lima",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre pcc na faria lima, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A matéria da The Economist sobre o Brasil. Com Bolsonaro caracterizado como 'viking do Capitólio', a publicação reconheceu maior maturidade democrática brasileira.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre pcc na faria lima",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Brazil na The Economist",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre brazil na the economist, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A matéria da The Economist sobre o Brasil. Com Bolsonaro caracterizado como 'viking do Capitólio', a publicação reconheceu maior maturidade democrática brasileira.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre brazil na the economist",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1214,7 +1214,7 @@
           "title": "OpenAI Processada por Morte Culposa",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre openai processada por morte culposa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "A matéria da The Economist sobre o Brasil. Com Bolsonaro caracterizado como 'viking do Capitólio', a publicação reconheceu maior maturidade democrática brasileira.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre openai processada por morte culposa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1228,37 +1228,37 @@
       "duration": "1h05min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "longevidade",
-          "theme_label": "Longevidade & Saúde",
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
           "title": "Serena",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre serena, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Metade dos americanos já não consome álcool, o menor percentual em quase 90 anos. GLP-1 e Serena Williams.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre serena",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "longevidade",
-          "theme_label": "Longevidade & Saúde",
+          "theme": "economia",
+          "theme_label": "Economia & Mercados",
           "title": "GLP-1",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre glp-1, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Metade dos americanos já não consome álcool, o menor percentual em quase 90 anos. GLP-1 e Serena Williams.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre glp-1",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "longevidade",
-          "theme_label": "Longevidade & Saúde",
+          "theme": "sociedade",
+          "theme_label": "Trabalho & Sociedade",
           "title": "Americanos Sem Álcool",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre americanos sem álcool, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Metade dos americanos já não consome álcool, o menor percentual em quase 90 anos. GLP-1 e Serena Williams.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre americanos sem álcool",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1269,7 +1269,7 @@
           "title": "A volta do GPT-4",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre a volta do gpt-4, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Metade dos americanos já não consome álcool, o menor percentual em quase 90 anos. GLP-1 e Serena Williams.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre a volta do gpt-4",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1283,7 +1283,7 @@
       "duration": "1h14min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -1291,7 +1291,7 @@
           "title": "ChatGPT-5 no Ar",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre chatgpt-5 no ar, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Lançamento do ChatGPT-5, que Sam Altman apresentou como salto significativo rumo à AGI.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre chatgpt-5 no ar",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1302,29 +1302,29 @@
           "title": "IA nas Salas de Aula",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre ia nas salas de aula, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Lançamento do ChatGPT-5, que Sam Altman apresentou como salto significativo rumo à AGI.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ia nas salas de aula",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Tim Cook",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre tim cook, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Lançamento do ChatGPT-5, que Sam Altman apresentou como salto significativo rumo à AGI.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre tim cook",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Lançamento do ChatGPT-5, que Sam Altman apresentou como salto significativo rumo à AGI.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1338,7 +1338,7 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "economia",
@@ -1346,40 +1346,40 @@
           "title": "O Deadline das Tarifas",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre o deadline das tarifas, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas anunciadas por Trump com o Brasil recebendo sobretaxa de 50%, maior que todos os outros 68 países afetados.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o deadline das tarifas",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Lula em Alta no Exterior",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre lula em alta no exterior, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas anunciadas por Trump com o Brasil recebendo sobretaxa de 50%, maior que todos os outros 68 países afetados.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre lula em alta no exterior",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Magnitsky",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre magnitsky, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas anunciadas por Trump com o Brasil recebendo sobretaxa de 50%, maior que todos os outros 68 países afetados.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre magnitsky",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Moraes",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre moraes, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas anunciadas por Trump com o Brasil recebendo sobretaxa de 50%, maior que todos os outros 68 países afetados.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre moraes",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1393,26 +1393,26 @@
       "duration": "1h04min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "A Guerra de Gaza",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre a guerra de gaza, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Macron anuncia que a França reconhecerá oficialmente o Estado da Palestina. Ciência de ponta contra o câncer.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre a guerra de gaza",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "longevidade",
+          "theme_label": "Longevidade & Saúde",
           "title": "Contra o Câncer",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre contra o câncer, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Macron anuncia que a França reconhecerá oficialmente o Estado da Palestina. Ciência de ponta contra o câncer.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre contra o câncer",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1426,37 +1426,37 @@
       "duration": "56min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Flagra do Coldplay",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre flagra do coldplay, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Inteligência artificial dá salto com o primeiro agente do ChatGPT capaz de navegar na web e fazer compras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre flagra do coldplay",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump X Brasil",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre trump x brasil, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Inteligência artificial dá salto com o primeiro agente do ChatGPT capaz de navegar na web e fazer compras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump x brasil",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Caso Epstein e o Genius Act",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre caso epstein e o genius act, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Inteligência artificial dá salto com o primeiro agente do ChatGPT capaz de navegar na web e fazer compras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre caso epstein e o genius act",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1470,15 +1470,15 @@
       "duration": "1h16min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump Impõe Tarifas no Brasil",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump impõe tarifas no brasil, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Carta de Trump ao Brasil com tarifas e referências diretas a Bolsonaro. Grok 4 apresenta viés nazista em testes.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump impõe tarifas no brasil",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1489,7 +1489,7 @@
           "title": "Grok 4 Mostra Viés Nazista e os Dilemas do AI for Good",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre grok 4 mostra viés nazista e os dilemas do ai for good, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Carta de Trump ao Brasil com tarifas e referências diretas a Bolsonaro. Grok 4 apresenta viés nazista em testes.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre grok 4 mostra viés nazista e os dilemas do ai for good",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1503,26 +1503,26 @@
       "duration": "58min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "O Veredito de Diddy",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre o veredito de diddy, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Controverso julgamento de Diddy: apesar de evidências contundentes, produtor foi absolvido das acusações mais graves.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o veredito de diddy",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "A Aprovação da Big Beautiful Bill",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre a aprovação da big beautiful bill, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Controverso julgamento de Diddy: apesar de evidências contundentes, produtor foi absolvido das acusações mais graves.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre a aprovação da big beautiful bill",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1533,7 +1533,7 @@
           "title": "E os Novos Layoffs da Microsoft",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre e os novos layoffs da microsoft, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Controverso julgamento de Diddy: apesar de evidências contundentes, produtor foi absolvido das acusações mais graves.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre e os novos layoffs da microsoft",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1547,37 +1547,37 @@
       "duration": "1h05min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Casamento de Bezos",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre casamento de bezos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Bilionários desviam o foco da mídia enquanto decisões que afetarão milhões são tomadas nas sombras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre casamento de bezos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "privacidade",
+          "theme_label": "Privacidade",
           "title": "Os Gadgets que Gravam Conversas",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre os gadgets que gravam conversas, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Bilionários desviam o foco da mídia enquanto decisões que afetarão milhões são tomadas nas sombras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre os gadgets que gravam conversas",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "STF Enquadra Redes Sociais",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre stf enquadra redes sociais, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Bilionários desviam o foco da mídia enquanto decisões que afetarão milhões são tomadas nas sombras.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre stf enquadra redes sociais",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1591,7 +1591,7 @@
       "duration": "1h00min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "cultura",
@@ -1599,7 +1599,7 @@
           "title": "Cannes Lions",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre cannes lions, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Brasil coroado como 'Creative Country of the Year' em Cannes e bate recordes históricos de premiação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre cannes lions",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1610,7 +1610,7 @@
           "title": "EUA Atacam Irã",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre eua atacam irã, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Brasil coroado como 'Creative Country of the Year' em Cannes e bate recordes históricos de premiação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre eua atacam irã",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -1624,26 +1624,26 @@
       "duration": "1h01min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Israel Bombardeia Irã",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre israel bombardeia irã, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Ataque israelense ao Irã marca nova fase no conflito do Oriente Médio, ocorrendo quando negociações estavam previstas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre israel bombardeia irã",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump Desafia a Democracia e a IA Muda de Continente",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre trump desafia a democracia e a ia muda de continente, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Ataque israelense ao Irã marca nova fase no conflito do Oriente Médio, ocorrendo quando negociações estavam previstas.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump desafia a democracia e a ia muda de continente",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1657,15 +1657,15 @@
       "duration": "1h01min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "O Big Beautiful Breakup: Trump X Musk",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre o big beautiful breakup: trump x musk, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Bromance entre Elon Musk e Donald Trump explodiu em guerra pública. Dois egos titânicos chegaram ao limite.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o big beautiful breakup: trump x musk",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1679,7 +1679,7 @@
       "duration": "50min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "geopolitica",
@@ -1687,7 +1687,7 @@
           "title": "Geopolítica Estudantil e o 'Big Beautiful' Buraco Fiscal",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre geopolítica estudantil e o 'big beautiful' buraco fiscal, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O mundo está em transformação acelerada. Geopolítica estudantil e buraco fiscal do projeto Big Beautiful de Trump.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre geopolítica estudantil e o 'big beautiful' buraco fiscal",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1701,48 +1701,48 @@
       "duration": "57min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Google I/O",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre google i/o, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Decisão de Trump de restringir importações de chips afetando diretamente a Apple. Google I/O com novidades de IA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre google i/o",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "O Casamento de Sam Altman",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre o casamento de sam altman, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Decisão de Trump de restringir importações de chips afetando diretamente a Apple. Google I/O com novidades de IA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o casamento de sam altman",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Jony Ive",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre jony ive, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Decisão de Trump de restringir importações de chips afetando diretamente a Apple. Google I/O com novidades de IA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre jony ive",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "E o Pesadelo de Tim Cook",
           "timestamp": "45:00",
           "timestamp_seconds": 2700,
-          "description": "Discussão aprofundada sobre e o pesadelo de tim cook, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Decisão de Trump de restringir importações de chips afetando diretamente a Apple. Google I/O com novidades de IA.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre e o pesadelo de tim cook",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1756,15 +1756,15 @@
       "duration": "43min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "ciencia",
+          "theme_label": "Ciência",
           "title": "Edição Genética Crispr",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre edição genética crispr, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Medicina personalizada com CRISPR, AlphaFold prevendo estruturas de proteínas em minutos, e computação quântica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre edição genética crispr",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1775,18 +1775,18 @@
           "title": "Alphafold",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre alphafold, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Medicina personalizada com CRISPR, AlphaFold prevendo estruturas de proteínas em minutos, e computação quântica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre alphafold",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "ciencia",
+          "theme_label": "Ciência",
           "title": "Quantum",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre quantum, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Medicina personalizada com CRISPR, AlphaFold prevendo estruturas de proteínas em minutos, e computação quântica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre quantum",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1800,15 +1800,15 @@
       "duration": "37min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump x Advogados e a Mudança Democrata",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump x advogados e a mudança democrata, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Trump ataca escritórios de advocacia que representam causas progressistas, aplicando sanções sem precedentes.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump x advogados e a mudança democrata",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1822,7 +1822,7 @@
       "duration": "59min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "economia",
@@ -1830,29 +1830,29 @@
           "title": "Fim da Festa da Shein",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre fim da festa da shein, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Governo americano derrubou a isenção fiscal para compras de até $800, afetando Temu e Shein. Apagão na Península Ibérica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre fim da festa da shein",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "infraestrutura",
+          "theme_label": "Infraestrutura",
           "title": "Apagão na Europa",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre apagão na europa, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Governo americano derrubou a isenção fiscal para compras de até $800, afetando Temu e Shein. Apagão na Península Ibérica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre apagão na europa",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "infraestrutura",
+          "theme_label": "Infraestrutura",
           "title": "Ataques Cibernéticos",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre ataques cibernéticos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Governo americano derrubou a isenção fiscal para compras de até $800, afetando Temu e Shein. Apagão na Península Ibérica.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre ataques cibernéticos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1866,7 +1866,7 @@
       "duration": "1h01min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -1874,7 +1874,7 @@
           "title": "Agentes - IA Não Só Respondendo Mas Fazendo Coisas Para Você",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre agentes - ia não só respondendo mas fazendo coisas para você, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "O fascinante mundo dos agentes de IA. O Manos, primeiro agente verdadeiramente acessível ao público desenvolvido por startup chinesa.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre agentes - ia não só respondendo mas fazendo coisas para você",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1888,7 +1888,7 @@
       "duration": "1h00min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -1896,7 +1896,7 @@
           "title": "Trump x Harvard",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump x harvard, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Harvard resiste às pressões de Trump, sofrendo congelamento de verbas. Julgamento antitruste da Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump x harvard",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1907,7 +1907,7 @@
           "title": "Julgamento da Meta",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre julgamento da meta, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Harvard resiste às pressões de Trump, sofrendo congelamento de verbas. Julgamento antitruste da Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre julgamento da meta",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -1918,7 +1918,7 @@
           "title": "Deportação de Imigrantes Legais",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre deportação de imigrantes legais, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Harvard resiste às pressões de Trump, sofrendo congelamento de verbas. Julgamento antitruste da Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre deportação de imigrantes legais",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1932,15 +1932,15 @@
       "duration": "1h03min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Volta Atrás de Trump e a Revogação dos Vistos Estudantis",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre volta atrás de trump e a revogação dos vistos estudantis, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Guerra das tarifas criou onda de choque nos mercados. Trump recua parcialmente mas mantém pressão sobre China.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre volta atrás de trump e a revogação dos vistos estudantis",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1954,15 +1954,15 @@
       "duration": "1h00min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Tarifaço do Trump",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre tarifaço do trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas de 10% para o mundo e 145% para a China. 'Liberation Day' provocou terremoto nos mercados financeiros globais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre tarifaço do trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1973,18 +1973,18 @@
           "title": "Mercados Derretendo",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre mercados derretendo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas de 10% para o mundo e 145% para a China. 'Liberation Day' provocou terremoto nos mercados financeiros globais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre mercados derretendo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "infraestrutura",
+          "theme_label": "Infraestrutura",
           "title": "Hackers Pedindo Resgate",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre hackers pedindo resgate, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Tarifas de 10% para o mundo e 145% para a China. 'Liberation Day' provocou terremoto nos mercados financeiros globais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre hackers pedindo resgate",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -1998,26 +1998,26 @@
       "duration": "1h07min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "privacidade",
+          "theme_label": "Privacidade",
           "title": "SignalGate",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre signalgate, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Falência do 23andMe, escândalo SignalGate onde jornalistas foram adicionados a grupo Signal de altos funcionários, e série Adolescência da Netflix.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre signalgate",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "Adolescência",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre adolescência, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Falência do 23andMe, escândalo SignalGate onde jornalistas foram adicionados a grupo Signal de altos funcionários, e série Adolescência da Netflix.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre adolescência",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2031,15 +2031,15 @@
       "duration": "55min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Cessar-fogo na Ucrânia e a Economia do Ozempic",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre cessar-fogo na ucrânia e a economia do ozempic, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Revolução silenciosa do Ozempic transformando mais que silhuetas. O que começou como tratamento para diabetes remodela economias.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre cessar-fogo na ucrânia e a economia do ozempic",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
@@ -2053,7 +2053,7 @@
       "duration": "1h04min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "economia",
@@ -2061,18 +2061,18 @@
           "title": "Guerra de Tarifas",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre guerra de tarifas, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Políticas de tarifas de Trump e panorama do SXSW, festival que se tornou epicentro global de inovação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre guerra de tarifas",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "noticia"
         },
         {
-          "theme": "economia",
-          "theme_label": "Economia & Mercados",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "SXSW",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre sxsw, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Políticas de tarifas de Trump e panorama do SXSW, festival que se tornou epicentro global de inovação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre sxsw",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2086,15 +2086,15 @@
       "duration": "53min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "geopolitica",
-          "theme_label": "Geopolítica",
+          "theme": "politica",
+          "theme_label": "Política",
           "title": "Trump",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Encontro entre Trump e Zelensky no Salão Oval provocou reações intensas sobre o futuro das relações políticas globais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2105,7 +2105,7 @@
           "title": "Zelenskyy: Uma Nova Ordem Mundial?",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre zelenskyy: uma nova ordem mundial?, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Encontro entre Trump e Zelensky no Salão Oval provocou reações intensas sobre o futuro das relações políticas globais.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre zelenskyy: uma nova ordem mundial?",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2119,15 +2119,15 @@
       "duration": "58min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "cultura",
+          "theme_label": "Cultura",
           "title": "SXSW: O Que Esperar + Os Robôs Estão Chegando",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre sxsw: o que esperar + os robôs estão chegando, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Impacto das tecnologias emergentes de Elon Musk, Grok 3 e chip Majorana da Microsoft. Interseção de tecnologia e política.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre sxsw: o que esperar + os robôs estão chegando",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2141,7 +2141,7 @@
       "duration": "1h01min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "geopolitica",
@@ -2149,18 +2149,18 @@
           "title": "MEGA (Make Europe Great Again)",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre mega (make europe great again), com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "'Make Europe Great Again' e suas implicações na geopolítica. Crescente tensão entre líderes globais de tecnologia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre mega (make europe great again)",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "geopolitica",
-          "theme_label": "Geopolítica",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Musk vs Altman",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre musk vs altman, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "'Make Europe Great Again' e suas implicações na geopolítica. Crescente tensão entre líderes globais de tecnologia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre musk vs altman",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2171,7 +2171,7 @@
           "title": "Piti do CEO do JP Morgan",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre piti do ceo do jp morgan, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "'Make Europe Great Again' e suas implicações na geopolítica. Crescente tensão entre líderes globais de tecnologia.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre piti do ceo do jp morgan",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2185,7 +2185,7 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -2193,7 +2193,7 @@
           "title": "Trump",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Interseção entre Donald Trump e Elon Musk revela novo paradigma na política moderna onde comunicação e entretenimento se fundem.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2204,7 +2204,7 @@
           "title": "Musk - Uma Dupla Explosiva",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre musk - uma dupla explosiva, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Interseção entre Donald Trump e Elon Musk revela novo paradigma na política moderna onde comunicação e entretenimento se fundem.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre musk - uma dupla explosiva",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2218,7 +2218,7 @@
       "duration": "1h09min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "ia",
@@ -2226,7 +2226,7 @@
           "title": "DeepSeek e o Estado da AI no Mundo",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre deepseek e o estado da ai no mundo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Chegada do DeepSeek desafia as percepções tradicionais do que é possível com a IA. Diferença entre open source e modelos proprietários.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre deepseek e o estado da ai no mundo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2240,26 +2240,26 @@
       "duration": "1h03min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Davos",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre davos, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "World Economic Forum em Davos. Influência da nova presidência de Trump e os avanços tecnológicos em meio a cenário global em mutação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre davos",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "ia",
-          "theme_label": "Inteligência Artificial",
+          "theme": "geopolitica",
+          "theme_label": "Geopolítica",
           "title": "Brasil e a Corrida Tecnológica",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre brasil e a corrida tecnológica, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "World Economic Forum em Davos. Influência da nova presidência de Trump e os avanços tecnológicos em meio a cenário global em mutação.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre brasil e a corrida tecnológica",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2273,15 +2273,15 @@
       "duration": "56min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "O fim do TikTok",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre o fim do tiktok, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Iminente encerramento do TikTok nos EUA, implicações da posse de Trump e crescente preocupação com refugiados climáticos.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre o fim do tiktok",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2292,7 +2292,7 @@
           "title": "Dos programas de diversidade",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre dos programas de diversidade, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Iminente encerramento do TikTok nos EUA, implicações da posse de Trump e crescente preocupação com refugiados climáticos.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre dos programas de diversidade",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2303,7 +2303,7 @@
           "title": "E a crise climática",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre e a crise climática, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Iminente encerramento do TikTok nos EUA, implicações da posse de Trump e crescente preocupação com refugiados climáticos.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre e a crise climática",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
@@ -2317,7 +2317,7 @@
       "duration": "59min",
       "spotify_url": "https://open.spotify.com/show/3yKWHFiYaYXUctZKyEInH7",
       "buzzsprout_url": "https://www.buzzsprout.com/2437885",
-      "youtube_url": "",
+      "youtube_url": "https://www.youtube.com/@DuploCliquePodcast",
       "segments": [
         {
           "theme": "politica",
@@ -2325,34 +2325,102 @@
           "title": "Trump",
           "timestamp": "00:00",
           "timestamp_seconds": 0,
-          "description": "Discussão aprofundada sobre trump, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Primeiro episódio do Duplo Clique! Trump, Elon Musk e a polêmica decisão do Zuckerberg de retirar a moderação de conteúdo na Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre trump",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Elon Musk",
           "timestamp": "15:00",
           "timestamp_seconds": 900,
-          "description": "Discussão aprofundada sobre elon musk, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Primeiro episódio do Duplo Clique! Trump, Elon Musk e a polêmica decisão do Zuckerberg de retirar a moderação de conteúdo na Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre elon musk",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         },
         {
-          "theme": "politica",
-          "theme_label": "Política",
+          "theme": "bigtech",
+          "theme_label": "Big Tech",
           "title": "Mark Zuckerberg com o fim da moderação de conteúdo",
           "timestamp": "30:00",
           "timestamp_seconds": 1800,
-          "description": "Discussão aprofundada sobre mark zuckerberg com o fim da moderação de conteúdo, com análise de contexto, atores envolvidos e implicações de longo prazo.",
+          "description": "Primeiro episódio do Duplo Clique! Trump, Elon Musk e a polêmica decisão do Zuckerberg de retirar a moderação de conteúdo na Meta.",
           "hook": "No episódio: o ângulo que vai além das manchetes sobre mark zuckerberg com o fim da moderação de conteúdo",
           "tension": "O que essa história revela sobre dinâmicas de poder que raramente aparecem na cobertura convencional?",
           "type": "analise"
         }
       ]
+    }
+  ],
+  "themes": [
+    {
+      "id": "politica",
+      "label": "Política",
+      "emoji": "🏛️",
+      "count": 41
+    },
+    {
+      "id": "ia",
+      "label": "Inteligência Artificial",
+      "emoji": "🤖",
+      "count": 27
+    },
+    {
+      "id": "geopolitica",
+      "label": "Geopolítica",
+      "emoji": "🌍",
+      "count": 25
+    },
+    {
+      "id": "sociedade",
+      "label": "Trabalho & Sociedade",
+      "emoji": "👥",
+      "count": 15
+    },
+    {
+      "id": "bigtech",
+      "label": "Big Tech",
+      "emoji": "💻",
+      "count": 14
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "emoji": "🎭",
+      "count": 12
+    },
+    {
+      "id": "economia",
+      "label": "Economia & Mercados",
+      "emoji": "📊",
+      "count": 11
+    },
+    {
+      "id": "longevidade",
+      "label": "Longevidade & Saúde",
+      "emoji": "🧬",
+      "count": 4
+    },
+    {
+      "id": "infraestrutura",
+      "label": "Infraestrutura",
+      "emoji": "⚡",
+      "count": 4
+    },
+    {
+      "id": "ciencia",
+      "label": "Ciência",
+      "emoji": "🔬",
+      "count": 3
+    },
+    {
+      "id": "privacidade",
+      "label": "Privacidade",
+      "emoji": "🔒",
+      "count": 2
     }
   ]
 }
