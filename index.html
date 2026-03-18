@@ -964,12 +964,14 @@
             const latest = allEpisodes[0];
             const card = document.getElementById('latest-episode');
 
-            let segmentsHTML = latest.segments.slice(0, 3).map(seg => `
-                <div class="segment-item">
+            // Sort by weight (desc) and show top 3 non-intro segments
+            let topSegs = [...latest.segments].filter(s => s.weight > 3).sort((a, b) => b.weight - a.weight).slice(0, 3);
+            if (topSegs.length === 0) topSegs = latest.segments.slice(0, 3);
+            let segmentsHTML = topSegs.map(seg => `
+                <div class="segment-item" onclick="window.open('${seg.youtube_link || latest.youtube_url}')" style="cursor:pointer">
                     <div>
                         <span class="segment-tag theme-${seg.theme}">${seg.theme_label}</span>
-                        <div class="segment-title">${seg.title}</div>
-                        <div class="segment-description">${seg.description}</div>
+                        <div class="segment-title">${seg.title}<span class="segment-time">${seg.timestamp}</span></div>
                     </div>
                 </div>
             `).join('');
@@ -1029,17 +1031,16 @@
             }
 
             let html = filtered.map(ep => {
-                const segmentsHTML = ep.segments.map((seg, idx) => `
-                    <div class="segment-card">
+                // Sort segments: by weight (desc), then chronological (asc within episode)
+                const sortedSegs = currentFilter
+                    ? ep.segments.filter(s => s.theme === currentFilter).sort((a, b) => b.weight - a.weight)
+                    : [...ep.segments].sort((a, b) => b.weight - a.weight || a.timestamp_seconds - b.timestamp_seconds);
+
+                const segmentsHTML = sortedSegs.map((seg, idx) => `
+                    <div class="segment-card" onclick="window.open('${seg.youtube_link || ep.youtube_url}')" style="cursor:pointer">
                         <div class="segment-content">
                             <span class="segment-tag theme-${seg.theme}">${seg.theme_label}</span>
-                            <div class="segment-title">${seg.title}${seg.timestamp ? '<span class="segment-time">' + seg.timestamp + '</span>' : ''}</div>
-                            <div class="segment-description-text">${seg.description}</div>
-                            <button class="segment-expand-btn" onclick="toggleSegmentDetails(this)">Mostrar mais</button>
-                            <div class="segment-details">
-                                <div class="detail-item"><span class="detail-label">Tensão Central:</span> ${seg.tension}</div>
-                                <div class="detail-item"><span class="detail-label">Gancho:</span> ${seg.hook}</div>
-                            </div>
+                            <div class="segment-title">${seg.title}<span class="segment-time">⏱ ${seg.timestamp}</span></div>
                         </div>
                     </div>
                 `).join('');
@@ -1066,11 +1067,7 @@
             episodesList.innerHTML = html;
         }
 
-        function toggleSegmentDetails(button) {
-            const details = button.nextElementSibling;
-            details.classList.toggle('expanded');
-            button.textContent = details.classList.contains('expanded') ? 'Mostrar menos' : 'Mostrar mais';
-        }
+        // toggleSegmentDetails removed — segments now link directly to YouTube chapters
 
         function updateStats() {
             document.getElementById('episode-count').textContent = allEpisodes.length;
